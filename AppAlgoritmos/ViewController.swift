@@ -1,9 +1,6 @@
-//
 //  ViewController.swift
 //  AppAlgoritmos
-//
 //  Created by Moises Abraham Vazquez Perez on 25/01/23.
-//
 
 import UIKit
 
