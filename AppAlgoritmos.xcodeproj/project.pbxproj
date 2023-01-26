@@ -13,6 +13,8 @@
 		3440A457298236430009B0FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3440A455298236430009B0FA /* Main.storyboard */; };
 		3440A459298236460009B0FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3440A458298236460009B0FA /* Assets.xcassets */; };
 		3440A45C298236460009B0FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3440A45A298236460009B0FA /* LaunchScreen.storyboard */; };
+		3440A467298236BB0009B0FA /* EjercicioUnoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3440A465298236BB0009B0FA /* EjercicioUnoViewController.swift */; };
+		3440A468298236BB0009B0FA /* EjercicioUnoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3440A466298236BB0009B0FA /* EjercicioUnoViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		3440A458298236460009B0FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3440A45B298236460009B0FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3440A45D298236460009B0FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3440A465298236BB0009B0FA /* EjercicioUnoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjercicioUnoViewController.swift; sourceTree = "<group>"; };
+		3440A466298236BB0009B0FA /* EjercicioUnoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EjercicioUnoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		3440A44E298236430009B0FA /* AppAlgoritmos */ = {
 			isa = PBXGroup;
 			children = (
+				3440A463298236980009B0FA /* Controller */,
 				3440A44F298236430009B0FA /* AppDelegate.swift */,
 				3440A451298236430009B0FA /* SceneDelegate.swift */,
 				3440A453298236430009B0FA /* ViewController.swift */,
@@ -65,6 +70,23 @@
 				3440A45D298236460009B0FA /* Info.plist */,
 			);
 			path = AppAlgoritmos;
+			sourceTree = "<group>";
+		};
+		3440A463298236980009B0FA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3440A464298236A10009B0FA /* Ejercicios */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3440A464298236A10009B0FA /* Ejercicios */ = {
+			isa = PBXGroup;
+			children = (
+				3440A465298236BB0009B0FA /* EjercicioUnoViewController.swift */,
+				3440A466298236BB0009B0FA /* EjercicioUnoViewController.xib */,
+			);
+			path = Ejercicios;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3440A45C298236460009B0FA /* LaunchScreen.storyboard in Resources */,
+				3440A468298236BB0009B0FA /* EjercicioUnoViewController.xib in Resources */,
 				3440A459298236460009B0FA /* Assets.xcassets in Resources */,
 				3440A457298236430009B0FA /* Main.storyboard in Resources */,
 			);
@@ -140,6 +163,7 @@
 			files = (
 				3440A454298236430009B0FA /* ViewController.swift in Sources */,
 				3440A450298236430009B0FA /* AppDelegate.swift in Sources */,
+				3440A467298236BB0009B0FA /* EjercicioUnoViewController.swift in Sources */,
 				3440A452298236430009B0FA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,8 +309,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K3CP3A2L68;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AppAlgoritmos/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -302,6 +328,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.AppAlgoritmos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -316,8 +343,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K3CP3A2L68;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AppAlgoritmos/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -333,6 +362,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.AppAlgoritmos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;

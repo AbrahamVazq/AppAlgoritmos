@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  EjercicioUnoViewController.swift
 //  AppAlgoritmos
 //
 //  Created by Moises Abraham Vazquez Perez on 25/01/23.
@@ -7,13 +7,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class EjercicioUnoViewController: UIViewController {
     //MARK: - OUTLETS
     
     
     //MARK: - VARIABLES
     
-
+    
     //MARK: - LIFE · CYCLE
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,13 +24,9 @@ class ViewController: UIViewController {
     
     
     //MARK: - ACTIONS
-    @IBAction func goToFirst(_ sender: Any) {
-        let vc = EjercicioUnoViewController(nibName: "EjercicioUnoViewController", bundle: .main)
-        self.present(vc, animated: true)
-    }
+    
     
     //MARK: - NAVIGATION
     
     
 }
-
