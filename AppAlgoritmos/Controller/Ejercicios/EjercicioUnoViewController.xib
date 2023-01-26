@@ -11,6 +11,10 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EjercicioUnoViewController" customModule="AppAlgoritmos" customModuleProvider="target">
             <connections>
+                <outlet property="btnValida" destination="lFA-4S-jME" id="g9W-Qb-Ilt"/>
+                <outlet property="lblResult" destination="Bud-lE-f1Y" id="QY3-DR-rwS"/>
+                <outlet property="txfV1" destination="gY2-Do-Deh" id="FNA-h5-BGf"/>
+                <outlet property="txfV2" destination="r51-l3-Mvc" id="249-0T-2uQ"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -25,13 +29,53 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <textField opaque="NO" tag="666" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ingresa el primer valor" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gY2-Do-Deh">
+                    <rect key="frame" x="24" y="146" width="345" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                </textField>
+                <textField opaque="NO" tag="777" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ingresa Segundo valor" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="r51-l3-Mvc">
+                    <rect key="frame" x="24" y="204" width="345" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lFA-4S-jME">
+                    <rect key="frame" x="44" y="318" width="305" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="AjL-3a-G65"/>
+                    </constraints>
+                    <color key="tintColor" red="0.59999999999999998" green="0.1176470588" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Quien es mayor?"/>
+                    <connections>
+                        <action selector="goToValidation:" destination="-1" eventType="touchUpInside" id="3VK-de-R7Z"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(Resultado)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bud-lE-f1Y">
+                    <rect key="frame" x="24" y="262" width="345" height="20.333333333333314"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ReV-DI-c6y" secondAttribute="trailing" constant="24" id="6Ja-VL-uX6"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="lFA-4S-jME" secondAttribute="trailing" constant="44" id="IGf-7D-HvA"/>
+                <constraint firstItem="gY2-Do-Deh" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="N1O-iH-Xqx"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Bud-lE-f1Y" secondAttribute="trailing" constant="24" id="Nqd-9N-z2o"/>
+                <constraint firstItem="Bud-lE-f1Y" firstAttribute="top" secondItem="r51-l3-Mvc" secondAttribute="bottom" constant="24" id="Tof-ft-m1D"/>
+                <constraint firstItem="r51-l3-Mvc" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="WLB-fv-Cda"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="r51-l3-Mvc" secondAttribute="trailing" constant="24" id="YJm-tN-wgw"/>
+                <constraint firstItem="gY2-Do-Deh" firstAttribute="top" secondItem="ReV-DI-c6y" secondAttribute="bottom" constant="34" id="Zgi-hj-86E"/>
+                <constraint firstItem="lFA-4S-jME" firstAttribute="top" secondItem="r51-l3-Mvc" secondAttribute="bottom" constant="80" id="c7a-Bm-GAa"/>
                 <constraint firstItem="ReV-DI-c6y" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="dGK-FE-7Nf"/>
                 <constraint firstItem="ReV-DI-c6y" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="32" id="eoa-Py-xXt"/>
+                <constraint firstItem="r51-l3-Mvc" firstAttribute="top" secondItem="gY2-Do-Deh" secondAttribute="bottom" constant="24" id="iTB-7I-K7a"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="gY2-Do-Deh" secondAttribute="trailing" constant="24" id="nN5-wo-NTO"/>
+                <constraint firstItem="lFA-4S-jME" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="44" id="neM-rP-vD2"/>
+                <constraint firstItem="Bud-lE-f1Y" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="uuH-qh-dMw"/>
             </constraints>
             <point key="canvasLocation" x="138" y="21"/>
         </view>
