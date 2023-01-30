@@ -19,13 +19,31 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ttQ-Op-yS9">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                                <color key="backgroundColor" red="0.33333333329999998" green="0.30196078430000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qSj-K9-uPj">
+                                        <rect key="frame" x="36" y="166" width="90" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="c61-97-d5Q"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Ejercicio 2"/>
+                                        <connections>
+                                            <action selector="goToSecond:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6EB-HQ-4YT"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="qSj-K9-uPj" firstAttribute="leading" secondItem="ttQ-Op-yS9" secondAttribute="leading" constant="36" id="QaV-kg-wJg"/>
+                                </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L5e-Tf-g5R">
-                                <rect key="frame" x="16" y="91" width="69" height="35"/>
+                                <rect key="frame" x="36" y="111" width="87" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="jsy-Nm-gMO"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Ejercicio 1"/>
                                 <connections>
@@ -36,12 +54,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="L5e-Tf-g5R" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="7iQ-6D-3Xn"/>
+                            <constraint firstItem="L5e-Tf-g5R" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="7iQ-6D-3Xn"/>
                             <constraint firstAttribute="bottom" secondItem="ttQ-Op-yS9" secondAttribute="bottom" id="BU6-pJ-gBU"/>
                             <constraint firstItem="ttQ-Op-yS9" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="GVI-tf-2LZ"/>
                             <constraint firstItem="ttQ-Op-yS9" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="NZc-ll-c3a"/>
                             <constraint firstItem="ttQ-Op-yS9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bvz-nJ-o0z"/>
-                            <constraint firstItem="L5e-Tf-g5R" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="dAE-Ww-eCr"/>
+                            <constraint firstItem="qSj-K9-uPj" firstAttribute="top" secondItem="L5e-Tf-g5R" secondAttribute="bottom" constant="20" id="cYF-aO-tPf"/>
+                            <constraint firstItem="L5e-Tf-g5R" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="52" id="dAE-Ww-eCr"/>
                         </constraints>
                     </view>
                 </viewController>

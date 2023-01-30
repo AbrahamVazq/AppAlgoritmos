@@ -11,7 +11,6 @@ class EjercicioUnoViewController: UIViewController {
     @IBOutlet weak var btnValida: UIButton!
     @IBOutlet weak var lblResult: UILabel!
     
-    
     //MARK: - VARIABLES
     var valor1: Int = 0
     var valor2: Int = 0
@@ -25,15 +24,24 @@ class EjercicioUnoViewController: UIViewController {
     
     func validateTXF() -> Bool {
         if txfV1.text == ""{
-            self.lblResult.text = "Ingresa el valor en el primer campo, todo ciego!"
+            self.showAlert(WithTitle: "¡A L G O   F A L T A!", AndMessage: "Ingresa el primer valor")
             return false
         }else if txfV2.text == "" {
-            self.lblResult.text = "Ingresa el valor en el segundo campo, todo ciego!"
-            return false
+            self.showAlert(WithTitle: "¡A L G O    F A L T A!", AndMessage: "Ingresa el segundo valor")
         }else{
             return true
         }
+        return true
     }
+    
+    
+    func showAlert(WithTitle strTitle:String , AndMessage strMessage:String) {
+            let alert = UIAlertController(title: strTitle , message: strMessage, preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Aceptar", style: .default , handler: nil))
+            alert.addAction(UIAlertAction(title: "Cancelar", style: .default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+        }
+    
     
     func saveValues(){
         self.valor1 = Int(txfV1.text ?? "0") ?? 0
@@ -42,7 +50,7 @@ class EjercicioUnoViewController: UIViewController {
     
     func valida(value1: Int, value2: Int) {
         if value1 == value2{
-            self.lblResult.text = "Ambos numeros son iguales, ingresa de nuevo"
+            self.showAlert(WithTitle: "A L G O   A N D A   M A L", AndMessage: "Ambos numeros son iguales")
             txfV1.text = ""
             txfV2.text = ""
         }else if value1 > value2 {
@@ -60,6 +68,7 @@ class EjercicioUnoViewController: UIViewController {
             self.valida(value1: valor1, value2: valor2)
         }
     }
+   
     
     //MARK: - NAVIGATION
     

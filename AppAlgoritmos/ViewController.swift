@@ -26,6 +26,10 @@ class ViewController: UIViewController {
         self.present(vc, animated: true)
     }
     
+    @IBAction func goToSecond(_ sender: Any) {
+        let ed = EjercicioDosViewController(nibName: "EjercicioDosViewController", bundle: .main)
+        self.present(ed, animated: true)
+    }
     //MARK: - NAVIGATION
     
     
