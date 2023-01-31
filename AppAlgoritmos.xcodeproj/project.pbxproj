@@ -17,6 +17,8 @@
 		3440A468298236BB0009B0FA /* EjercicioUnoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3440A466298236BB0009B0FA /* EjercicioUnoViewController.xib */; };
 		A2773C87298837E4009F73EE /* EjercicioDosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2773C85298837E4009F73EE /* EjercicioDosViewController.swift */; };
 		A2773C88298837E4009F73EE /* EjercicioDosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2773C86298837E4009F73EE /* EjercicioDosViewController.xib */; };
+		A2773C912988B335009F73EE /* TercerEjercicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2773C8F2988B335009F73EE /* TercerEjercicioViewController.swift */; };
+		A2773C922988B335009F73EE /* TercerEjercicioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2773C902988B335009F73EE /* TercerEjercicioViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		3440A466298236BB0009B0FA /* EjercicioUnoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EjercicioUnoViewController.xib; sourceTree = "<group>"; };
 		A2773C85298837E4009F73EE /* EjercicioDosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjercicioDosViewController.swift; sourceTree = "<group>"; };
 		A2773C86298837E4009F73EE /* EjercicioDosViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EjercicioDosViewController.xib; sourceTree = "<group>"; };
+		A2773C8F2988B335009F73EE /* TercerEjercicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TercerEjercicioViewController.swift; sourceTree = "<group>"; };
+		A2773C902988B335009F73EE /* TercerEjercicioViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TercerEjercicioViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,12 +91,62 @@
 		3440A464298236A10009B0FA /* Ejercicios */ = {
 			isa = PBXGroup;
 			children = (
-				3440A465298236BB0009B0FA /* EjercicioUnoViewController.swift */,
-				3440A466298236BB0009B0FA /* EjercicioUnoViewController.xib */,
-				A2773C85298837E4009F73EE /* EjercicioDosViewController.swift */,
-				A2773C86298837E4009F73EE /* EjercicioDosViewController.xib */,
+				A2773C892988A7E6009F73EE /* Ejercicio uno */,
+				A2773C8A2988A805009F73EE /* EEjercicio dos */,
+				A2773C8B2988A840009F73EE /* Ejercicio tres */,
+				A2773C8C2988A852009F73EE /* Ejercicio cuatro */,
+				A2773C8D2988A862009F73EE /* Ejercicio cinco */,
+				A2773C8E2988A874009F73EE /* Ejercicio seis */,
 			);
 			path = Ejercicios;
+			sourceTree = "<group>";
+		};
+		A2773C892988A7E6009F73EE /* Ejercicio uno */ = {
+			isa = PBXGroup;
+			children = (
+				3440A465298236BB0009B0FA /* EjercicioUnoViewController.swift */,
+				3440A466298236BB0009B0FA /* EjercicioUnoViewController.xib */,
+			);
+			path = "Ejercicio uno";
+			sourceTree = "<group>";
+		};
+		A2773C8A2988A805009F73EE /* EEjercicio dos */ = {
+			isa = PBXGroup;
+			children = (
+				A2773C86298837E4009F73EE /* EjercicioDosViewController.xib */,
+				A2773C85298837E4009F73EE /* EjercicioDosViewController.swift */,
+			);
+			path = "EEjercicio dos";
+			sourceTree = "<group>";
+		};
+		A2773C8B2988A840009F73EE /* Ejercicio tres */ = {
+			isa = PBXGroup;
+			children = (
+				A2773C8F2988B335009F73EE /* TercerEjercicioViewController.swift */,
+				A2773C902988B335009F73EE /* TercerEjercicioViewController.xib */,
+			);
+			path = "Ejercicio tres";
+			sourceTree = "<group>";
+		};
+		A2773C8C2988A852009F73EE /* Ejercicio cuatro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Ejercicio cuatro";
+			sourceTree = "<group>";
+		};
+		A2773C8D2988A862009F73EE /* Ejercicio cinco */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Ejercicio cinco";
+			sourceTree = "<group>";
+		};
+		A2773C8E2988A874009F73EE /* Ejercicio seis */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Ejercicio seis";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3440A45C298236460009B0FA /* LaunchScreen.storyboard in Resources */,
+				A2773C922988B335009F73EE /* TercerEjercicioViewController.xib in Resources */,
 				A2773C88298837E4009F73EE /* EjercicioDosViewController.xib in Resources */,
 				3440A468298236BB0009B0FA /* EjercicioUnoViewController.xib in Resources */,
 				3440A459298236460009B0FA /* Assets.xcassets in Resources */,
@@ -171,6 +226,7 @@
 				3440A454298236430009B0FA /* ViewController.swift in Sources */,
 				3440A450298236430009B0FA /* AppDelegate.swift in Sources */,
 				3440A467298236BB0009B0FA /* EjercicioUnoViewController.swift in Sources */,
+				A2773C912988B335009F73EE /* TercerEjercicioViewController.swift in Sources */,
 				3440A452298236430009B0FA /* SceneDelegate.swift in Sources */,
 				A2773C87298837E4009F73EE /* EjercicioDosViewController.swift in Sources */,
 			);

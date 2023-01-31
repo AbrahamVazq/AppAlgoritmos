@@ -27,7 +27,7 @@ class EjercicioUnoViewController: UIViewController {
             self.showAlert(WithTitle: "¡A L G O   F A L T A!", AndMessage: "Ingresa el primer valor")
             return false
         }else if txfV2.text == "" {
-            self.showAlert(WithTitle: "¡A L G O    F A L T A!", AndMessage: "Ingresa el segundo valor")
+            self.showAlert(WithTitle: "¡A L G O    F A L T A!", AndMessage: "Ingresa el segundo va  lor")
         }else{
             return true
         }
