@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EjercicioDosViewController" customModule="AppAlgoritmos" customModuleProvider="target">
             <connections>
+                <outlet property="lblResult" destination="SXF-Lj-F04" id="Aw8-4A-biq"/>
                 <outlet property="txf1" destination="cxG-1m-HxA" id="MKm-q4-Zu7"/>
                 <outlet property="txf2" destination="edQ-d5-DOU" id="ftN-lo-j7E"/>
                 <outlet property="txf3" destination="knr-g7-efb" id="E46-vQ-Iwa"/>
@@ -42,7 +43,7 @@
                     <rect key="frame" x="44" y="405.33333333333331" width="305" height="30"/>
                     <color key="tintColor" red="0.59999999999999998" green="0.1176470588" blue="0.98039215690000003" alpha="1" colorSpace="calibratedRGB"/>
                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                    <state key="normal" title="Quien es mayor?"/>
+                    <state key="normal" title="¿Quien es mayor?"/>
                     <connections>
                         <action selector="btnResult:" destination="-1" eventType="touchUpInside" id="fJK-W7-gft"/>
                     </connections>

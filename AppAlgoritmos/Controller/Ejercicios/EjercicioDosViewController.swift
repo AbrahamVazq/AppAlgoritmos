@@ -13,6 +13,7 @@ class EjercicioDosViewController: UIViewController {
     @IBOutlet weak var txf1: UITextField!
     @IBOutlet weak var txf2: UITextField!
     @IBOutlet weak var txf3: UITextField!
+    @IBOutlet weak var lblResult: UILabel!
     
     //MARK: - VARIABLES
     var valor1: Int = 0
@@ -48,33 +49,60 @@ class EjercicioDosViewController: UIViewController {
             return false
         }else if txf2.text == "" {
             self.showAlert(WithTitle: "¡A L G O    F A L T A!", AndMessage: "Ingresa el segundo valor")
+            return false
         }else if txf3.text == "" {
             self.showAlert(WithTitle: "¡A L G O   F A L T A!", AndMessage: "Ingresa el tercer valor")
-        }else{
-            return true
+            return false
+        }
+     
+        return true
+    }
+    
+    func validaDif(val1: Int, val2: Int, val3: Int) -> Bool {
+        if val1 == val2{
+            self.showAlert(WithTitle: "A L G O   A N D A   M A L", AndMessage: "los valores deben ser diferentes")
+            self.lblResult.text = "intenta de nuevo"
+            txf1.text = ""
+            txf2.text = ""
+            txf3.text = ""
+            return false
+        }else if val1 == val3{
+            self.showAlert(WithTitle: "A L G O   A N D A   M A L", AndMessage: "los valores deben ser diferentes")
+            self.lblResult.text = "intenta de nuevo"
+            txf1.text = ""
+            txf2.text = ""
+            txf3.text = ""
+            return false
+        }else if val2 == val3 {
+            self.showAlert(WithTitle: "A L G O   A N D A   M A L", AndMessage: "los valores deben ser diferentes")
+            self.lblResult.text = "intenta de nuevo"
+            txf1.text = ""
+            txf2.text = ""
+            txf3.text = ""
         }
         return true
     }
     
-    func valida(val1: Int, val2: Int, val3: Int) {
-        if val1 == val2{
-            self.showAlert(WithTitle: "A L G O   A N D A   M A L", AndMessage: "los valores deben ser diferentes")
+    func validaMayor(val1: Int, val2: Int, val3: Int) {
+        if (val1 > val2) && (val1 > val3) {
+            self.lblResult.text = "\(val1) es el mayor"
             txf1.text = ""
             txf2.text = ""
             txf3.text = ""
-        }else if val1 == val3{
-            self.showAlert(WithTitle: "A L G O   A N D A   M A L", AndMessage: "los valores deben ser diferentes")
+        }else if (val2 > val1) && (val2 > val3) {
+            self.lblResult.text = "\(val2) es el mayor"
             txf1.text = ""
             txf2.text = ""
             txf3.text = ""
-        }else if val2 == val3 {
-            self.showAlert(WithTitle: "A L G O   A N D A   M A L", AndMessage: "los valores deben ser diferentes")
+        }else{
+            self.lblResult.text = "\(val3) es el mayor"
             txf1.text = ""
             txf2.text = ""
             txf3.text = ""
         }
     }
     
+
     
     
         
@@ -83,11 +111,12 @@ class EjercicioDosViewController: UIViewController {
     @IBAction func btnResult(_ sender: Any) {
         if validateTXF() {
             self.saveValues()
-            self.valida(val1: valor1, val2: valor2, val3: valor3)
+            if self.validaDif(val1: valor1, val2: valor2, val3: valor3){
+                self.validaMayor(val1: valor1, val2: valor2, val3: valor3)
+            }
         }
+        
     }
-    
-    
     //MARK: - NAVIGATION
     
     
