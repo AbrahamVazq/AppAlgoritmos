@@ -10,10 +10,14 @@ import UIKit
 class TercerEjercicioViewController : UIViewController {
     
     //MARK: - OUTLETS
-    
+
+    @IBOutlet weak var txf1: UITextField!
+    @IBOutlet weak var tvResult: UITextView!
+    @IBOutlet weak var btnDo: UIButton!
     
     //MARK: - VARIABLES
     var num:Int  = 0
+    var vec:Int = 0
     
     //MARK: - LIFE · CYCLE
     override func viewDidLoad() {
@@ -21,6 +25,11 @@ class TercerEjercicioViewController : UIViewController {
     }
     
     //MARK: - FUNCTIONS
+    
+    func saveValues(){
+        self.vec = Int(txf1.text ?? "0") ?? 0
+        
+    }
     func suma(val1: Int, val2: Int ) -> Int{
         let suma = val1 + val2
             return suma
@@ -30,13 +39,19 @@ class TercerEjercicioViewController : UIViewController {
         func sumota(veces vec:Int){
             for i in 1...vec{
                 num = suma(val1: i, val2: num)
-                print("La suma es igual a \(num)")
+                self.tvResult.text = "La suma es igual a \(num)"
+                
+            
             }
         }
-         
-  sumota(veces: 10)
     
     //MARK: - ACTIONS
+    
+    @IBAction func btnDoIt(_ sender: Any) {
+        self.saveValues()
+        self.sumota(veces: vec)
+        self.btnDo.isHidden = true
+    }
     
     //MARK: - NAVIGATION
     

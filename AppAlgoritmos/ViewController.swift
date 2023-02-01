@@ -30,6 +30,13 @@ class ViewController: UIViewController {
         let ed = EjercicioDosViewController(nibName: "EjercicioDosViewController", bundle: .main)
         self.present(ed, animated: true)
     }
+    
+    @IBAction func goToThree(_ sender: Any) {
+        let ed = TercerEjercicioViewController(nibName: "TercerEjercicioViewController", bundle: .main)
+        self.present(ed, animated: true)
+    }
+    
+    
     //MARK: - NAVIGATION
     
     

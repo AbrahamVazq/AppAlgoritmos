@@ -32,10 +32,22 @@
                                             <action selector="goToSecond:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6EB-HQ-4YT"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="elS-zz-aqC">
+                                        <rect key="frame" x="36" y="221" width="108" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Ejercicio 3"/>
+                                        <connections>
+                                            <action selector="goToThree:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rn4-DM-4mh"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
+                                    <constraint firstItem="elS-zz-aqC" firstAttribute="leading" secondItem="ttQ-Op-yS9" secondAttribute="leading" constant="36" id="D57-bN-Yv9"/>
                                     <constraint firstItem="qSj-K9-uPj" firstAttribute="leading" secondItem="ttQ-Op-yS9" secondAttribute="leading" constant="36" id="QaV-kg-wJg"/>
+                                    <constraint firstItem="elS-zz-aqC" firstAttribute="top" secondItem="qSj-K9-uPj" secondAttribute="bottom" constant="20" id="jfG-HX-0Vh"/>
+                                    <constraint firstAttribute="trailing" secondItem="elS-zz-aqC" secondAttribute="trailing" constant="249" id="tPb-04-7Dn"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L5e-Tf-g5R">
