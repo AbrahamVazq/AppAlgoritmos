@@ -28,11 +28,25 @@
                                     <action selector="goToFirst:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N9x-Uh-geR"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yx3-mQ-iTa">
+                                <rect key="frame" x="123" y="91" width="100" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="irR-GU-tL9"/>
+                                    <constraint firstAttribute="height" constant="35" id="qrz-yY-nsX"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Ejercicio2 "/>
+                                <connections>
+                                    <action selector="goToSecond:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rmW-s5-rmF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemCyanColor"/>
                         <constraints>
                             <constraint firstItem="L5e-Tf-g5R" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="7iQ-6D-3Xn"/>
+                            <constraint firstItem="yx3-mQ-iTa" firstAttribute="leading" secondItem="L5e-Tf-g5R" secondAttribute="trailing" constant="38" id="V6C-CB-rId"/>
+                            <constraint firstItem="yx3-mQ-iTa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="ZMs-UI-Bds"/>
                             <constraint firstItem="L5e-Tf-g5R" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="dAE-Ww-eCr"/>
                         </constraints>
                     </view>
