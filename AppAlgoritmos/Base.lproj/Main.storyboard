@@ -21,10 +21,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qSj-K9-uPj">
-                                        <rect key="frame" x="36" y="166" width="90" height="35"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="35" id="c61-97-d5Q"/>
-                                        </constraints>
+                                        <rect key="frame" x="36" y="167" width="90" height="36"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Ejercicio 2"/>
@@ -33,7 +30,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="elS-zz-aqC">
-                                        <rect key="frame" x="36" y="221" width="108" height="36"/>
+                                        <rect key="frame" x="36" y="223" width="91" height="36"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Ejercicio 3"/>
@@ -41,9 +38,8 @@
                                             <action selector="goToThree:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rn4-DM-4mh"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IsY-Sv-pHm">
-                                        <rect key="frame" x="36" y="275" width="108" height="36"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IsY-Sv-pHm">
+                                        <rect key="frame" x="36" y="277" width="91" height="36"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Ejercicio 4"/>
@@ -51,20 +47,31 @@
                                             <action selector="goToFour:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5yC-oh-8Hh"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eux-ZC-AhA">
+                                        <rect key="frame" x="36" y="331" width="90" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Ejercicio 5"/>
+                                        <connections>
+                                            <action selector="goToFive:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MNC-9m-Csu"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="elS-zz-aqC" firstAttribute="leading" secondItem="ttQ-Op-yS9" secondAttribute="leading" constant="36" id="D57-bN-Yv9"/>
                                     <constraint firstItem="qSj-K9-uPj" firstAttribute="leading" secondItem="ttQ-Op-yS9" secondAttribute="leading" constant="36" id="QaV-kg-wJg"/>
+                                    <constraint firstItem="IsY-Sv-pHm" firstAttribute="trailing" secondItem="elS-zz-aqC" secondAttribute="trailing" id="Vew-lH-hoq"/>
+                                    <constraint firstItem="Eux-ZC-AhA" firstAttribute="top" secondItem="IsY-Sv-pHm" secondAttribute="bottom" constant="18" id="WXC-kP-UdA"/>
+                                    <constraint firstItem="Eux-ZC-AhA" firstAttribute="leading" secondItem="ttQ-Op-yS9" secondAttribute="leading" constant="36" id="b39-Qq-u1n"/>
+                                    <constraint firstItem="IsY-Sv-pHm" firstAttribute="leading" secondItem="elS-zz-aqC" secondAttribute="leading" id="gc2-qA-cYB"/>
+                                    <constraint firstItem="IsY-Sv-pHm" firstAttribute="top" secondItem="elS-zz-aqC" secondAttribute="bottom" constant="18" id="jHk-6v-y6j"/>
                                     <constraint firstItem="elS-zz-aqC" firstAttribute="top" secondItem="qSj-K9-uPj" secondAttribute="bottom" constant="20" id="jfG-HX-0Vh"/>
-                                    <constraint firstAttribute="trailing" secondItem="elS-zz-aqC" secondAttribute="trailing" constant="249" id="tPb-04-7Dn"/>
+                                    <constraint firstItem="IsY-Sv-pHm" firstAttribute="leading" secondItem="ttQ-Op-yS9" secondAttribute="leading" constant="36" id="vxL-m9-X1g"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L5e-Tf-g5R">
-                                <rect key="frame" x="36" y="111" width="87" height="35"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="35" id="jsy-Nm-gMO"/>
-                                </constraints>
+                                <rect key="frame" x="36" y="111" width="87" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Ejercicio 1"/>
@@ -82,6 +89,7 @@
                             <constraint firstItem="ttQ-Op-yS9" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="NZc-ll-c3a"/>
                             <constraint firstItem="ttQ-Op-yS9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bvz-nJ-o0z"/>
                             <constraint firstItem="qSj-K9-uPj" firstAttribute="top" secondItem="L5e-Tf-g5R" secondAttribute="bottom" constant="20" id="cYF-aO-tPf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="L5e-Tf-g5R" secondAttribute="trailing" symbolic="YES" id="d5I-2n-5g3"/>
                             <constraint firstItem="L5e-Tf-g5R" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="52" id="dAE-Ww-eCr"/>
                         </constraints>
                     </view>

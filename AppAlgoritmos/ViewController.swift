@@ -41,6 +41,15 @@ class ViewController: UIViewController {
         let ed = CuartoEjercicioViewController(nibName: "CuartoEjercicioViewController", bundle: .main)
         self.present(ed, animated: true)
     }
+    
+    
+    @IBAction func goToFive(_ sender: Any) {
+        let ed = QuintoEjeViewController(nibName: "QuintoEjeViewController", bundle: .main)
+        self.present(ed, animated: true)
+    }
+    
+    
+    
     //MARK: - NAVIGATION
     
     

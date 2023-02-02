@@ -21,6 +21,8 @@
 		A2773C922988B335009F73EE /* TercerEjercicioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2773C902988B335009F73EE /* TercerEjercicioViewController.xib */; };
 		A2CDF041298AD7DF006F8461 /* CuartoEjercicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CDF03F298AD7DF006F8461 /* CuartoEjercicioViewController.swift */; };
 		A2CDF042298AD7DF006F8461 /* CuartoEjercicioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2CDF040298AD7DF006F8461 /* CuartoEjercicioViewController.xib */; };
+		A2CDF04D298B4FDB006F8461 /* QuintoEjeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CDF04B298B4FDB006F8461 /* QuintoEjeViewController.swift */; };
+		A2CDF04E298B4FDB006F8461 /* QuintoEjeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2CDF04C298B4FDB006F8461 /* QuintoEjeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		A2773C902988B335009F73EE /* TercerEjercicioViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TercerEjercicioViewController.xib; sourceTree = "<group>"; };
 		A2CDF03F298AD7DF006F8461 /* CuartoEjercicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuartoEjercicioViewController.swift; sourceTree = "<group>"; };
 		A2CDF040298AD7DF006F8461 /* CuartoEjercicioViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CuartoEjercicioViewController.xib; sourceTree = "<group>"; };
+		A2CDF04B298B4FDB006F8461 /* QuintoEjeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuintoEjeViewController.swift; sourceTree = "<group>"; };
+		A2CDF04C298B4FDB006F8461 /* QuintoEjeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuintoEjeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +148,8 @@
 		A2773C8D2988A862009F73EE /* Ejercicio cinco */ = {
 			isa = PBXGroup;
 			children = (
+				A2CDF04B298B4FDB006F8461 /* QuintoEjeViewController.swift */,
+				A2CDF04C298B4FDB006F8461 /* QuintoEjeViewController.xib */,
 			);
 			path = "Ejercicio cinco";
 			sourceTree = "<group>";
@@ -216,6 +222,7 @@
 				A2CDF042298AD7DF006F8461 /* CuartoEjercicioViewController.xib in Resources */,
 				3440A45C298236460009B0FA /* LaunchScreen.storyboard in Resources */,
 				A2773C922988B335009F73EE /* TercerEjercicioViewController.xib in Resources */,
+				A2CDF04E298B4FDB006F8461 /* QuintoEjeViewController.xib in Resources */,
 				A2773C88298837E4009F73EE /* EjercicioDosViewController.xib in Resources */,
 				3440A468298236BB0009B0FA /* EjercicioUnoViewController.xib in Resources */,
 				3440A459298236460009B0FA /* Assets.xcassets in Resources */,
@@ -236,6 +243,7 @@
 				A2773C912988B335009F73EE /* TercerEjercicioViewController.swift in Sources */,
 				3440A452298236430009B0FA /* SceneDelegate.swift in Sources */,
 				A2773C87298837E4009F73EE /* EjercicioDosViewController.swift in Sources */,
+				A2CDF04D298B4FDB006F8461 /* QuintoEjeViewController.swift in Sources */,
 				A2CDF041298AD7DF006F8461 /* CuartoEjercicioViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

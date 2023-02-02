@@ -32,13 +32,12 @@ class CuartoEjercicioViewController: UIViewController {
         self.val2 = Double(Int(txfB.text ?? "0") ?? 0)
     }
     
-    func ladotri(ladoA a: Double, ladoB b: Double) -> Double {
+    func ladotri(ladoA a: Double, ladoB b: Double) {
         let operacion = ((a * a) + (b * b)).squareRoot()
         print("\(operacion)")
         self.lblHip.text = String(operacion)
         self.txfA.text = String("")
         self.txfB.text = String("")
-        return operacion
     }
     
  
