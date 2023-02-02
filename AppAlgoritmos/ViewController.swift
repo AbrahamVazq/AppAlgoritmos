@@ -49,7 +49,15 @@ class ViewController: UIViewController {
     }
     
     
+    @IBAction func goToSix(_ sender: Any) {
+        let ed = SextoEjercicioViewController(nibName: "SextoEjercicioViewController", bundle: .main)
+        self.present(ed, animated: true)
+    }
     
+    @IBAction func goToSeven(_ sender: Any) {
+        let ed = SeptimoEjecicioViewController(nibName: "SeptimoEjecicioViewController", bundle: .main)
+        self.present(ed, animated: true)
+    }
     //MARK: - NAVIGATION
     
     
