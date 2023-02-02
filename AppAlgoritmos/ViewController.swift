@@ -37,6 +37,10 @@ class ViewController: UIViewController {
     }
     
     
+    @IBAction func goToFour(_ sender: Any) {
+        let ed = CuartoEjercicioViewController(nibName: "CuartoEjercicioViewController", bundle: .main)
+        self.present(ed, animated: true)
+    }
     //MARK: - NAVIGATION
     
     

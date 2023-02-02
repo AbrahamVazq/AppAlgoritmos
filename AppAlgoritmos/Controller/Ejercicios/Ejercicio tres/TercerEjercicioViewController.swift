@@ -40,7 +40,7 @@ class TercerEjercicioViewController : UIViewController {
             for i in 1...vec{
                 num = suma(val1: i, val2: num)
                 self.tvResult.text = "La suma es igual a \(num)"
-                
+                txf1.text = ""
             
             }
         }
@@ -50,7 +50,7 @@ class TercerEjercicioViewController : UIViewController {
     @IBAction func btnDoIt(_ sender: Any) {
         self.saveValues()
         self.sumota(veces: vec)
-        self.btnDo.isHidden = true
+      
     }
     
     //MARK: - NAVIGATION
