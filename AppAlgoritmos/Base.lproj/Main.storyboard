@@ -74,6 +74,9 @@
                                 <state key="normal" title="Ejercicio 4 ">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="goToFourth:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZCs-D5-G53"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ICn-i0-1eM">
                                 <rect key="frame" x="148" y="158" width="80" height="35"/>
@@ -86,6 +89,9 @@
                                 <state key="normal" title="Ejercicio 5 ">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="goToFifth:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pya-Jp-6ff"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="euG-lQ-OQ1">
                                 <rect key="frame" x="260" y="158" width="80" height="35"/>
@@ -98,6 +104,9 @@
                                 <state key="normal" title="Ejercicio 6 ">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="goToSixt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R5p-qu-qJP"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tkv-IK-Fij">
                                 <rect key="frame" x="36" y="225" width="80" height="35"/>
@@ -110,6 +119,9 @@
                                 <state key="normal" title="Ejercicio 7 ">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="goToSeventh:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UBt-k5-xG5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AIO-l4-NGk">
                                 <rect key="frame" x="148" y="225" width="80" height="35"/>
@@ -122,6 +134,9 @@
                                 <state key="normal" title="Ejercicio 8 ">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="goToEighth:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Duj-yt-eLZ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3f-8j-RFQ">
                                 <rect key="frame" x="260" y="225" width="80" height="35"/>
@@ -134,18 +149,9 @@
                                 <state key="normal" title="Ejercicio 9 ">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Vo-vn-S10">
-                                <rect key="frame" x="28" y="292" width="90" height="35"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="35" id="ove-Su-oR3"/>
-                                    <constraint firstAttribute="width" constant="90" id="sep-hD-r9W"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Ejercicio 10">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
+                                <connections>
+                                    <action selector="goToNineth:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JwD-Il-qoz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8oi-Eh-PZq">
                                 <rect key="frame" x="144" y="292" width="90" height="35"/>
@@ -158,6 +164,9 @@
                                 <state key="normal" title="Ejercicio 11 ">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="goToEleventh:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aVE-7l-f6c"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gor-2J-7hl">
                                 <rect key="frame" x="260" y="292" width="90" height="35"/>
@@ -170,6 +179,24 @@
                                 <state key="normal" title="Ejercicio 12">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="goToTwelfth:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UVy-iG-iSF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Vo-vn-S10">
+                                <rect key="frame" x="26" y="292" width="90" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="ove-Su-oR3"/>
+                                    <constraint firstAttribute="width" constant="90" id="sep-hD-r9W"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Ejercicio 10">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToTenth:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PqZ-xc-ZfF"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
