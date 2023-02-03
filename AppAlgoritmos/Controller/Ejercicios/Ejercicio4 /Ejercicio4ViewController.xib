@@ -11,6 +11,12 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Ejercicio4ViewController" customModule="AppAlgoritmos" customModuleProvider="target">
             <connections>
+                <outlet property="btnCalcularHip" destination="8Vj-8g-uAo" id="TZP-yb-7Fi"/>
+                <outlet property="lblEjercicio4" destination="4NF-eq-isB" id="hQG-Ii-INk"/>
+                <outlet property="lblResultHipotenusa" destination="NcQ-St-m7E" id="f88-n5-e73"/>
+                <outlet property="lblTitleE4" destination="e5S-yf-8H9" id="TLK-Ae-eqH"/>
+                <outlet property="txtCatetoA" destination="2z4-0D-ZdZ" id="FFV-L3-uae"/>
+                <outlet property="txtCatetoB" destination="KRB-ew-h1R" id="6JF-KA-JG3"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -28,13 +34,76 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DETERMINAR HIPOTENISA " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e5S-yf-8H9">
+                    <rect key="frame" x="24" y="131" width="345" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="J8Q-cT-UHY"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ingrese Cateto A" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2z4-0D-ZdZ">
+                    <rect key="frame" x="24" y="179" width="345" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="kVP-xO-CHI"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ingrese Cateto B" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KRB-ew-h1R">
+                    <rect key="frame" x="24" y="237" width="345" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="wAr-9F-Syk"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(Resultado)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NcQ-St-m7E">
+                    <rect key="frame" x="50" y="305" width="293" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="agt-Wn-cdb"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Vj-8g-uAo">
+                    <rect key="frame" x="60" y="373" width="273" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="56A-bg-Vso"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="21"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="CALCULAR HIPOTENUSA ">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="btnCalculateHip:" destination="-1" eventType="touchUpInside" id="fnK-Pf-iVA"/>
+                    </connections>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="2z4-0D-ZdZ" secondAttribute="trailing" constant="24" id="5Su-u2-rql"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="KRB-ew-h1R" secondAttribute="trailing" constant="24" id="6GP-Du-IX4"/>
+                <constraint firstItem="KRB-ew-h1R" firstAttribute="top" secondItem="2z4-0D-ZdZ" secondAttribute="bottom" constant="24" id="91n-Vg-AvD"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="e5S-yf-8H9" secondAttribute="trailing" constant="24" id="Fn0-Fi-W17"/>
+                <constraint firstItem="NcQ-St-m7E" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="50" id="G7s-CK-0e3"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="8Vj-8g-uAo" secondAttribute="trailing" constant="60" id="I9f-tc-VOs"/>
+                <constraint firstItem="e5S-yf-8H9" firstAttribute="top" secondItem="4NF-eq-isB" secondAttribute="bottom" constant="24" id="LPR-9z-rmP"/>
+                <constraint firstItem="e5S-yf-8H9" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="NfO-CY-g52"/>
+                <constraint firstItem="NcQ-St-m7E" firstAttribute="top" secondItem="KRB-ew-h1R" secondAttribute="bottom" constant="34" id="SjU-gO-Z9L"/>
+                <constraint firstItem="2z4-0D-ZdZ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="TYG-g9-8vn"/>
                 <constraint firstItem="4NF-eq-isB" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="24" id="ZET-DQ-Dip"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="NcQ-St-m7E" secondAttribute="trailing" constant="50" id="e9L-b2-Umg"/>
+                <constraint firstItem="8Vj-8g-uAo" firstAttribute="top" secondItem="NcQ-St-m7E" secondAttribute="bottom" constant="34" id="ggf-43-7Ob"/>
                 <constraint firstItem="4NF-eq-isB" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="gvN-jy-DLa"/>
+                <constraint firstItem="2z4-0D-ZdZ" firstAttribute="top" secondItem="e5S-yf-8H9" secondAttribute="bottom" constant="24" id="oOA-WQ-yqh"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="4NF-eq-isB" secondAttribute="trailing" constant="24" id="pGJ-K0-uQu"/>
+                <constraint firstItem="8Vj-8g-uAo" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="60" id="wfg-zY-gXT"/>
+                <constraint firstItem="KRB-ew-h1R" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="zAt-j1-mZF"/>
             </constraints>
             <point key="canvasLocation" x="132" y="-11"/>
         </view>
