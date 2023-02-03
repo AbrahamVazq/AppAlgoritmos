@@ -41,7 +41,7 @@ class Ejercicio4ViewController: UIViewController {
     }
     
     func hypotenuse(_ a: Double, _ b: Double) {
-        var hip = (a * a + b * b).squareRoot()
+        let hip =  (a * a + b * b).squareRoot()
         self.lblResultHipotenusa.text = "El valor de la Hipotenusa es \(hip)"
     }
     
@@ -50,6 +50,7 @@ class Ejercicio4ViewController: UIViewController {
     @IBAction func btnCalculateHip(_ sender: Any) {
         saveValue()
         hypotenuse(catetoA, catetoB)
+    
     }
     
     

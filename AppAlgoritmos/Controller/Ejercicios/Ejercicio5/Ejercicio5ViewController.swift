@@ -8,22 +8,59 @@
 import UIKit
 
 class Ejercicio5ViewController: UIViewController {
-
+    
+    
+    //MARK: - OUTLETS
+    
+    @IBOutlet weak var lblEjercici5: UILabel!
+    @IBOutlet weak var lblTitleE5: UILabel!
+    @IBOutlet weak var txtRadioCilindro: UITextField!
+    @IBOutlet weak var txtAlturaCilindro: UITextField!
+    @IBOutlet weak var lblArea: UILabel!
+    @IBOutlet weak var lblVolumen: UILabel!
+    @IBOutlet weak var btnCalculaAreaYVolumen: UIButton!
+    
+    // MARK: - VARIABLES
+    
+    var altura: Double = 0
+    var radio: Double = 0
+    let pi: Double = 3.14
+    
+    
+    // MARK: - LIFE . CYCLE
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
-
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    //MARK: - FUNCTIONS
+    
+    func saveValues(){
+        self.altura = Double(txtAlturaCilindro.text ?? "0") ?? 0
+        self.radio = Double(txtRadioCilindro.text ?? "0") ?? 0
     }
-    */
+    
+    func areaYVolumenCilindro(h: Double, r: Double){
+        var area = 2 * pi * r * ( h + r )
+        self.lblArea.text = "El area del cilindro es \(area) cm²"
+        var volu = pi * ( r * r ) * h
+        self.lblVolumen.text = "El volumen del cilindro es \(volu) cm³"
+    }
+    
+    
+    //MARK: - ACTIONS
+    
+
+    @IBAction func resultadosCilindro(_ sender: Any) {
+        saveValues()
+        areaYVolumenCilindro(h: altura, r: radio)
+    }
+    
+    
+    
+    // MARK: - NAVIGATION
+    
+
+
+  
 
 }

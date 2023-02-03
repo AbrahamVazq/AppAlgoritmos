@@ -57,7 +57,7 @@
                         <constraint firstAttribute="height" constant="36" id="gNY-wp-QC8"/>
                     </constraints>
                     <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="plain" title="SUMA MULTIPLOS DE 5 "/>
+                    <buttonConfiguration key="configuration" style="plain" title="SUMA MULTIPLOS DE 5 HASTA 100 " titleAlignment="center"/>
                     <connections>
                         <action selector="btnSumar2:" destination="-1" eventType="touchUpInside" id="c9y-YF-UKr"/>
                     </connections>
@@ -68,7 +68,7 @@
                         <constraint firstAttribute="height" constant="36" id="6tr-lf-BCu"/>
                     </constraints>
                     <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="plain" title="SUMA NUMEROS PARES "/>
+                    <buttonConfiguration key="configuration" style="plain" title="SUMA NUMEROS PARES HASTA 100 "/>
                     <connections>
                         <action selector="btnSumar3:" destination="-1" eventType="touchUpInside" id="dQk-JH-Yw2"/>
                     </connections>
