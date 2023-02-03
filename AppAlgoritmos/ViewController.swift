@@ -31,6 +31,23 @@ class ViewController: UIViewController {
         self.present(vts, animated: true)
     }
     
+    @IBAction func goToThird(_ sender: Any) {
+        let vtth = EjercicioTresViewController(nibName: "EjercicioTresViewController", bundle: .main)
+        self.present(vtth, animated: true)
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     //MARK: - NAVIGATION
     

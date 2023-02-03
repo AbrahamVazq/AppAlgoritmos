@@ -54,22 +54,22 @@ class EjercicioDosViewController: UIViewController {
         
         func validaIguales(valor1: Int, valor2: Int, valor3: Int) {
             if (valor1 == valor2) && (valor2 == valor3) && (valor1 == valor3){
-                self.lblResultE2.text = "Todos los valores son igusles, ingresa de nuevo"
+                self.lblResultE2.text = "Todos los valores son iguales, ingresa valores nuevamente"
                 txtIngrN1.text = ""
                 txtIngrN2.text = ""
                 txtIngrN3.text = ""
             }else if valor1 == valor2 {
-                self.lblResultE2.text = "Los dos primeros valores son iguales, ingresa de nuevo"
+                self.lblResultE2.text = "Los dos primeros valores son iguales, ingresa valores nuevamente"
                 txtIngrN1.text = ""
                 txtIngrN2.text = ""
                 txtIngrN3.text = ""
             }else if valor2 == valor3 {
-                self.lblResultE2.text = "Los dos ultimos valores son iguales, ingresa de nuevo"
+                self.lblResultE2.text = "Los dos ultimos valores son iguales, ingresa valores nuevamente"
                 txtIngrN1.text = ""
                 txtIngrN2.text = ""
                 txtIngrN3.text = ""
             }else if valor1 == valor3 {
-                self.lblResultE2.text = "Hay valores iguales, ingresa de nuevo"
+                self.lblResultE2.text = "Hay valores iguales, ingresa valores nuevamente"
             }else if (valor1 > valor2) && (valor1 > valor3) {
                 self.lblResultE2.text = "\(valor1) es mayor que \(valor2) y \(valor3)."
             }else if (valor2 > valor1) && (valor2 > valor3) {

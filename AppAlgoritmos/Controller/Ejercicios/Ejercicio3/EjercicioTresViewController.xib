@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EjercicioTresViewController" customModule="AppAlgoritmos" customModuleProvider="target">
+            <connections>
+                <outlet property="btnValidarSuma" destination="swN-JX-rwV" id="cgH-MM-6EA"/>
+                <outlet property="lblResultE3" destination="ovs-kg-L2b" id="F5F-QF-lql"/>
+                <outlet property="lblTitleE3" destination="1Hg-K0-mFS" id="0RH-eU-bar"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SUMA DE NUMEROS EN CICLOS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Hg-K0-mFS">
+                    <rect key="frame" x="34" y="93" width="307" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="iWo-He-YNu"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(RESULTADO)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ovs-kg-L2b">
+                    <rect key="frame" x="34" y="151" width="307" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="kwC-WO-jGG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="swN-JX-rwV">
+                    <rect key="frame" x="65" y="209" width="245" height="36"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="R2D-GP-FKr"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="SUMAR NUMEROS 1 AL 10"/>
+                    <connections>
+                        <action selector="btnSumar1:" destination="-1" eventType="touchUpInside" id="hXj-e0-7cj"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UuR-Fm-yb0">
+                    <rect key="frame" x="65" y="269" width="245" height="36"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="gNY-wp-QC8"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="SUMA MULTIPLOS DE 5 "/>
+                    <connections>
+                        <action selector="btnSumar2:" destination="-1" eventType="touchUpInside" id="c9y-YF-UKr"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pto-66-sCg">
+                    <rect key="frame" x="65" y="329" width="245" height="36"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="36" id="6tr-lf-BCu"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="SUMA NUMEROS PARES "/>
+                    <connections>
+                        <action selector="btnSumar3:" destination="-1" eventType="touchUpInside" id="dQk-JH-Yw2"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="swN-JX-rwV" secondAttribute="trailing" constant="65" id="2tn-U7-pRp"/>
+                <constraint firstItem="swN-JX-rwV" firstAttribute="top" secondItem="ovs-kg-L2b" secondAttribute="bottom" constant="24" id="60x-up-i2b"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="pto-66-sCg" secondAttribute="trailing" constant="65" id="7Nz-G5-ZWi"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="UuR-Fm-yb0" secondAttribute="trailing" constant="65" id="9Jo-g5-cp5"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="1Hg-K0-mFS" secondAttribute="trailing" constant="34" id="EwG-S5-zI9"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ovs-kg-L2b" secondAttribute="trailing" constant="34" id="LgY-zp-kcP"/>
+                <constraint firstItem="1Hg-K0-mFS" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="34" id="NJR-2A-3sl"/>
+                <constraint firstItem="UuR-Fm-yb0" firstAttribute="top" secondItem="swN-JX-rwV" secondAttribute="bottom" constant="24" id="fgt-22-fuy"/>
+                <constraint firstItem="1Hg-K0-mFS" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="34" id="gjl-Rj-de7"/>
+                <constraint firstItem="UuR-Fm-yb0" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="65" id="kI1-y4-GBS"/>
+                <constraint firstItem="ovs-kg-L2b" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="34" id="khc-Zi-nhK"/>
+                <constraint firstItem="pto-66-sCg" firstAttribute="top" secondItem="UuR-Fm-yb0" secondAttribute="bottom" constant="24" id="qgW-Zk-HA4"/>
+                <constraint firstItem="pto-66-sCg" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="65" id="rEt-Un-QQz"/>
+                <constraint firstItem="ovs-kg-L2b" firstAttribute="top" secondItem="1Hg-K0-mFS" secondAttribute="bottom" constant="24" id="sbs-sL-n01"/>
+                <constraint firstItem="swN-JX-rwV" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="65" id="xgd-cl-fxs"/>
+            </constraints>
+            <point key="canvasLocation" x="25" y="-11"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

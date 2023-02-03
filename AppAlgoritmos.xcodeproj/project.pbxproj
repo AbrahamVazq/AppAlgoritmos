@@ -15,8 +15,28 @@
 		3440A45C298236460009B0FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3440A45A298236460009B0FA /* LaunchScreen.storyboard */; };
 		3440A467298236BB0009B0FA /* EjercicioUnoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3440A465298236BB0009B0FA /* EjercicioUnoViewController.swift */; };
 		3440A468298236BB0009B0FA /* EjercicioUnoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3440A466298236BB0009B0FA /* EjercicioUnoViewController.xib */; };
+		AA30C268298B6F5A00F37221 /* EjercicioTresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA30C266298B6F5A00F37221 /* EjercicioTresViewController.swift */; };
+		AA30C269298B6F5A00F37221 /* EjercicioTresViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA30C267298B6F5A00F37221 /* EjercicioTresViewController.xib */; };
 		AAB47983298B4DC700B79D54 /* EjercicioDosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB47981298B4DC700B79D54 /* EjercicioDosViewController.swift */; };
 		AAB47984298B4DC700B79D54 /* EjercicioDosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAB47982298B4DC700B79D54 /* EjercicioDosViewController.xib */; };
+		AAF167A5298D84CF00CD7DB6 /* Ejercicio4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF167A3298D84CF00CD7DB6 /* Ejercicio4ViewController.swift */; };
+		AAF167A6298D84CF00CD7DB6 /* Ejercicio4ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAF167A4298D84CF00CD7DB6 /* Ejercicio4ViewController.xib */; };
+		AAF167AA298D858200CD7DB6 /* Ejercicio5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF167A8298D858200CD7DB6 /* Ejercicio5ViewController.swift */; };
+		AAF167AB298D858200CD7DB6 /* Ejercicio5ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAF167A9298D858200CD7DB6 /* Ejercicio5ViewController.xib */; };
+		AAF167AF298D85C600CD7DB6 /* Ejercicio6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF167AD298D85C600CD7DB6 /* Ejercicio6ViewController.swift */; };
+		AAF167B0298D85C600CD7DB6 /* Ejercicio6ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAF167AE298D85C600CD7DB6 /* Ejercicio6ViewController.xib */; };
+		AAF167B4298D85FC00CD7DB6 /* Ejercicio7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF167B2298D85FC00CD7DB6 /* Ejercicio7ViewController.swift */; };
+		AAF167B5298D85FC00CD7DB6 /* Ejercicio7ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAF167B3298D85FC00CD7DB6 /* Ejercicio7ViewController.xib */; };
+		AAF167B9298D866300CD7DB6 /* Ejercicio8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF167B7298D866300CD7DB6 /* Ejercicio8ViewController.swift */; };
+		AAF167BA298D866300CD7DB6 /* Ejercicio8ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAF167B8298D866300CD7DB6 /* Ejercicio8ViewController.xib */; };
+		AAF167BE298D869D00CD7DB6 /* Ejercicio9ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF167BC298D869D00CD7DB6 /* Ejercicio9ViewController.swift */; };
+		AAF167BF298D869D00CD7DB6 /* Ejercicio9ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAF167BD298D869D00CD7DB6 /* Ejercicio9ViewController.xib */; };
+		AAF167C3298D86CA00CD7DB6 /* Ejercicio10ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF167C1298D86CA00CD7DB6 /* Ejercicio10ViewController.swift */; };
+		AAF167C4298D86CA00CD7DB6 /* Ejercicio10ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAF167C2298D86CA00CD7DB6 /* Ejercicio10ViewController.xib */; };
+		AAF167CB298D875300CD7DB6 /* Ejercicio11ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF167C9298D875300CD7DB6 /* Ejercicio11ViewController.swift */; };
+		AAF167CC298D875300CD7DB6 /* Ejercicio11ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAF167CA298D875300CD7DB6 /* Ejercicio11ViewController.xib */; };
+		AAF167CF298D878500CD7DB6 /* Ejercicio12ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF167CD298D878500CD7DB6 /* Ejercicio12ViewController.swift */; };
+		AAF167D0298D878500CD7DB6 /* Ejercicio12ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAF167CE298D878500CD7DB6 /* Ejercicio12ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +50,28 @@
 		3440A45D298236460009B0FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3440A465298236BB0009B0FA /* EjercicioUnoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjercicioUnoViewController.swift; sourceTree = "<group>"; };
 		3440A466298236BB0009B0FA /* EjercicioUnoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EjercicioUnoViewController.xib; sourceTree = "<group>"; };
+		AA30C266298B6F5A00F37221 /* EjercicioTresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjercicioTresViewController.swift; sourceTree = "<group>"; };
+		AA30C267298B6F5A00F37221 /* EjercicioTresViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EjercicioTresViewController.xib; sourceTree = "<group>"; };
 		AAB47981298B4DC700B79D54 /* EjercicioDosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjercicioDosViewController.swift; sourceTree = "<group>"; };
 		AAB47982298B4DC700B79D54 /* EjercicioDosViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EjercicioDosViewController.xib; sourceTree = "<group>"; };
+		AAF167A3298D84CF00CD7DB6 /* Ejercicio4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejercicio4ViewController.swift; sourceTree = "<group>"; };
+		AAF167A4298D84CF00CD7DB6 /* Ejercicio4ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Ejercicio4ViewController.xib; sourceTree = "<group>"; };
+		AAF167A8298D858200CD7DB6 /* Ejercicio5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejercicio5ViewController.swift; sourceTree = "<group>"; };
+		AAF167A9298D858200CD7DB6 /* Ejercicio5ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Ejercicio5ViewController.xib; sourceTree = "<group>"; };
+		AAF167AD298D85C600CD7DB6 /* Ejercicio6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejercicio6ViewController.swift; sourceTree = "<group>"; };
+		AAF167AE298D85C600CD7DB6 /* Ejercicio6ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Ejercicio6ViewController.xib; sourceTree = "<group>"; };
+		AAF167B2298D85FC00CD7DB6 /* Ejercicio7ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejercicio7ViewController.swift; sourceTree = "<group>"; };
+		AAF167B3298D85FC00CD7DB6 /* Ejercicio7ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Ejercicio7ViewController.xib; sourceTree = "<group>"; };
+		AAF167B7298D866300CD7DB6 /* Ejercicio8ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejercicio8ViewController.swift; sourceTree = "<group>"; };
+		AAF167B8298D866300CD7DB6 /* Ejercicio8ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Ejercicio8ViewController.xib; sourceTree = "<group>"; };
+		AAF167BC298D869D00CD7DB6 /* Ejercicio9ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejercicio9ViewController.swift; sourceTree = "<group>"; };
+		AAF167BD298D869D00CD7DB6 /* Ejercicio9ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Ejercicio9ViewController.xib; sourceTree = "<group>"; };
+		AAF167C1298D86CA00CD7DB6 /* Ejercicio10ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejercicio10ViewController.swift; sourceTree = "<group>"; };
+		AAF167C2298D86CA00CD7DB6 /* Ejercicio10ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Ejercicio10ViewController.xib; sourceTree = "<group>"; };
+		AAF167C9298D875300CD7DB6 /* Ejercicio11ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejercicio11ViewController.swift; sourceTree = "<group>"; };
+		AAF167CA298D875300CD7DB6 /* Ejercicio11ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Ejercicio11ViewController.xib; sourceTree = "<group>"; };
+		AAF167CD298D878500CD7DB6 /* Ejercicio12ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejercicio12ViewController.swift; sourceTree = "<group>"; };
+		AAF167CE298D878500CD7DB6 /* Ejercicio12ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Ejercicio12ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,8 +130,27 @@
 				3440A465298236BB0009B0FA /* EjercicioUnoViewController.swift */,
 				3440A466298236BB0009B0FA /* EjercicioUnoViewController.xib */,
 				AA50DE07298B15E900D1C93E /* Ejercicio2 */,
+				AA18ADA0298B6CEC0051AA20 /* Ejercicio3 */,
+				AAF167A2298D847E00CD7DB6 /* Ejercicio4  */,
+				AAF167A7298D850200CD7DB6 /* Ejercicio5 */,
+				AAF167AC298D859200CD7DB6 /* Ejercicio6 */,
+				AAF167B1298D85CD00CD7DB6 /* Ejercicio7 */,
+				AAF167B6298D861A00CD7DB6 /* Ejercicio8 */,
+				AAF167BB298D866A00CD7DB6 /* Ejercicio9 */,
+				AAF167C0298D86A500CD7DB6 /* Ejercicio10 */,
+				AAF167C5298D86D100CD7DB6 /* Ejercicio11 */,
+				AAF167C8298D872B00CD7DB6 /* Ejercicio12 */,
 			);
 			path = Ejercicios;
+			sourceTree = "<group>";
+		};
+		AA18ADA0298B6CEC0051AA20 /* Ejercicio3 */ = {
+			isa = PBXGroup;
+			children = (
+				AA30C266298B6F5A00F37221 /* EjercicioTresViewController.swift */,
+				AA30C267298B6F5A00F37221 /* EjercicioTresViewController.xib */,
+			);
+			path = Ejercicio3;
 			sourceTree = "<group>";
 		};
 		AA50DE07298B15E900D1C93E /* Ejercicio2 */ = {
@@ -101,6 +160,87 @@
 				AAB47982298B4DC700B79D54 /* EjercicioDosViewController.xib */,
 			);
 			path = Ejercicio2;
+			sourceTree = "<group>";
+		};
+		AAF167A2298D847E00CD7DB6 /* Ejercicio4  */ = {
+			isa = PBXGroup;
+			children = (
+				AAF167A3298D84CF00CD7DB6 /* Ejercicio4ViewController.swift */,
+				AAF167A4298D84CF00CD7DB6 /* Ejercicio4ViewController.xib */,
+			);
+			path = "Ejercicio4 ";
+			sourceTree = "<group>";
+		};
+		AAF167A7298D850200CD7DB6 /* Ejercicio5 */ = {
+			isa = PBXGroup;
+			children = (
+				AAF167A8298D858200CD7DB6 /* Ejercicio5ViewController.swift */,
+				AAF167A9298D858200CD7DB6 /* Ejercicio5ViewController.xib */,
+			);
+			path = Ejercicio5;
+			sourceTree = "<group>";
+		};
+		AAF167AC298D859200CD7DB6 /* Ejercicio6 */ = {
+			isa = PBXGroup;
+			children = (
+				AAF167AD298D85C600CD7DB6 /* Ejercicio6ViewController.swift */,
+				AAF167AE298D85C600CD7DB6 /* Ejercicio6ViewController.xib */,
+			);
+			path = Ejercicio6;
+			sourceTree = "<group>";
+		};
+		AAF167B1298D85CD00CD7DB6 /* Ejercicio7 */ = {
+			isa = PBXGroup;
+			children = (
+				AAF167B2298D85FC00CD7DB6 /* Ejercicio7ViewController.swift */,
+				AAF167B3298D85FC00CD7DB6 /* Ejercicio7ViewController.xib */,
+			);
+			path = Ejercicio7;
+			sourceTree = "<group>";
+		};
+		AAF167B6298D861A00CD7DB6 /* Ejercicio8 */ = {
+			isa = PBXGroup;
+			children = (
+				AAF167B7298D866300CD7DB6 /* Ejercicio8ViewController.swift */,
+				AAF167B8298D866300CD7DB6 /* Ejercicio8ViewController.xib */,
+			);
+			path = Ejercicio8;
+			sourceTree = "<group>";
+		};
+		AAF167BB298D866A00CD7DB6 /* Ejercicio9 */ = {
+			isa = PBXGroup;
+			children = (
+				AAF167BC298D869D00CD7DB6 /* Ejercicio9ViewController.swift */,
+				AAF167BD298D869D00CD7DB6 /* Ejercicio9ViewController.xib */,
+			);
+			path = Ejercicio9;
+			sourceTree = "<group>";
+		};
+		AAF167C0298D86A500CD7DB6 /* Ejercicio10 */ = {
+			isa = PBXGroup;
+			children = (
+				AAF167C1298D86CA00CD7DB6 /* Ejercicio10ViewController.swift */,
+				AAF167C2298D86CA00CD7DB6 /* Ejercicio10ViewController.xib */,
+			);
+			path = Ejercicio10;
+			sourceTree = "<group>";
+		};
+		AAF167C5298D86D100CD7DB6 /* Ejercicio11 */ = {
+			isa = PBXGroup;
+			children = (
+				AAF167C9298D875300CD7DB6 /* Ejercicio11ViewController.swift */,
+				AAF167CA298D875300CD7DB6 /* Ejercicio11ViewController.xib */,
+			);
+			path = Ejercicio11;
+			sourceTree = "<group>";
+		};
+		AAF167C8298D872B00CD7DB6 /* Ejercicio12 */ = {
+			isa = PBXGroup;
+			children = (
+				AAF167CD298D878500CD7DB6 /* Ejercicio12ViewController.swift */,
+				AAF167CE298D878500CD7DB6 /* Ejercicio12ViewController.xib */,
+			);
+			path = Ejercicio12;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,9 +303,19 @@
 			files = (
 				3440A45C298236460009B0FA /* LaunchScreen.storyboard in Resources */,
 				AAB47984298B4DC700B79D54 /* EjercicioDosViewController.xib in Resources */,
+				AA30C269298B6F5A00F37221 /* EjercicioTresViewController.xib in Resources */,
 				3440A468298236BB0009B0FA /* EjercicioUnoViewController.xib in Resources */,
+				AAF167CC298D875300CD7DB6 /* Ejercicio11ViewController.xib in Resources */,
+				AAF167BA298D866300CD7DB6 /* Ejercicio8ViewController.xib in Resources */,
+				AAF167A6298D84CF00CD7DB6 /* Ejercicio4ViewController.xib in Resources */,
+				AAF167BF298D869D00CD7DB6 /* Ejercicio9ViewController.xib in Resources */,
 				3440A459298236460009B0FA /* Assets.xcassets in Resources */,
+				AAF167B0298D85C600CD7DB6 /* Ejercicio6ViewController.xib in Resources */,
+				AAF167D0298D878500CD7DB6 /* Ejercicio12ViewController.xib in Resources */,
+				AAF167AB298D858200CD7DB6 /* Ejercicio5ViewController.xib in Resources */,
+				AAF167B5298D85FC00CD7DB6 /* Ejercicio7ViewController.xib in Resources */,
 				3440A457298236430009B0FA /* Main.storyboard in Resources */,
+				AAF167C4298D86CA00CD7DB6 /* Ejercicio10ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,9 +326,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAF167CF298D878500CD7DB6 /* Ejercicio12ViewController.swift in Sources */,
+				AAF167B9298D866300CD7DB6 /* Ejercicio8ViewController.swift in Sources */,
+				AA30C268298B6F5A00F37221 /* EjercicioTresViewController.swift in Sources */,
+				AAF167C3298D86CA00CD7DB6 /* Ejercicio10ViewController.swift in Sources */,
 				3440A454298236430009B0FA /* ViewController.swift in Sources */,
+				AAF167AA298D858200CD7DB6 /* Ejercicio5ViewController.swift in Sources */,
+				AAF167A5298D84CF00CD7DB6 /* Ejercicio4ViewController.swift in Sources */,
+				AAF167CB298D875300CD7DB6 /* Ejercicio11ViewController.swift in Sources */,
+				AAF167B4298D85FC00CD7DB6 /* Ejercicio7ViewController.swift in Sources */,
+				AAF167BE298D869D00CD7DB6 /* Ejercicio9ViewController.swift in Sources */,
 				3440A450298236430009B0FA /* AppDelegate.swift in Sources */,
 				3440A467298236BB0009B0FA /* EjercicioUnoViewController.swift in Sources */,
+				AAF167AF298D85C600CD7DB6 /* Ejercicio6ViewController.swift in Sources */,
 				3440A452298236430009B0FA /* SceneDelegate.swift in Sources */,
 				AAB47983298B4DC700B79D54 /* EjercicioDosViewController.swift in Sources */,
 			);
