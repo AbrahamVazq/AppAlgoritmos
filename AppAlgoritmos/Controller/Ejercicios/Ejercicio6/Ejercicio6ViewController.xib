@@ -11,6 +11,11 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Ejercicio6ViewController" customModule="AppAlgoritmos" customModuleProvider="target">
             <connections>
+                <outlet property="btnValidaNumero" destination="aEV-hZ-gje" id="1xn-C5-HAQ"/>
+                <outlet property="lblEjercicio6" destination="H2L-ig-b7g" id="5hf-3d-dgx"/>
+                <outlet property="lblResultadoParImpar" destination="wjf-TI-vNj" id="10T-wx-DDy"/>
+                <outlet property="lblTitleE6" destination="tIR-pi-Rwd" id="qVt-p2-Bkj"/>
+                <outlet property="txtIngreaNumero" destination="SQm-iI-7Ho" id="I8U-Xu-Evb"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -28,13 +33,62 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DETERMINAR SI EL NUMERO ES PAR " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tIR-pi-Rwd">
+                    <rect key="frame" x="24" y="128" width="345" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="Xpr-uP-MMI"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="INGRESA UN NUMERO" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SQm-iI-7Ho">
+                    <rect key="frame" x="96.666666666666686" y="176" width="200" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="6oK-c1-CmU"/>
+                        <constraint firstAttribute="width" constant="200" id="Gb8-TN-EF1"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aEV-hZ-gje">
+                    <rect key="frame" x="80" y="234" width="233" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="8lc-0a-V3y"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="VALIDA SI ES PAR"/>
+                    <connections>
+                        <action selector="btnValidaNumero:" destination="-1" eventType="touchUpInside" id="cB5-SE-mow"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(Resultado)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wjf-TI-vNj">
+                    <rect key="frame" x="24" y="314" width="345" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="4w5-fT-bN2"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="H2L-ig-b7g" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="0YD-N8-SbY"/>
+                <constraint firstItem="tIR-pi-Rwd" firstAttribute="top" secondItem="H2L-ig-b7g" secondAttribute="bottom" constant="24" id="6rH-am-i6N"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="H2L-ig-b7g" secondAttribute="trailing" constant="24" id="9e5-8H-sxb"/>
+                <constraint firstItem="wjf-TI-vNj" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="Bly-eo-GSi"/>
+                <constraint firstItem="tIR-pi-Rwd" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="Cix-2U-yYd"/>
+                <constraint firstItem="aEV-hZ-gje" firstAttribute="top" secondItem="SQm-iI-7Ho" secondAttribute="bottom" constant="24" id="Xey-QH-MX5"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="aEV-hZ-gje" secondAttribute="trailing" constant="80" id="ZeF-cu-O1i"/>
                 <constraint firstItem="H2L-ig-b7g" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="24" id="dDa-cY-kIx"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="wjf-TI-vNj" secondAttribute="trailing" constant="24" id="jdt-6v-seG"/>
+                <constraint firstAttribute="trailing" secondItem="tIR-pi-Rwd" secondAttribute="trailing" constant="24" id="nwI-uX-qCQ"/>
+                <constraint firstItem="SQm-iI-7Ho" firstAttribute="top" secondItem="tIR-pi-Rwd" secondAttribute="bottom" constant="24" id="pac-jc-Jz1"/>
+                <constraint firstItem="SQm-iI-7Ho" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="qfK-JG-xjg"/>
+                <constraint firstItem="aEV-hZ-gje" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="80" id="sT7-L1-fPb"/>
+                <constraint firstItem="wjf-TI-vNj" firstAttribute="top" secondItem="aEV-hZ-gje" secondAttribute="bottom" constant="45" id="wSv-l5-0cK"/>
             </constraints>
             <point key="canvasLocation" x="132" y="-12"/>
         </view>

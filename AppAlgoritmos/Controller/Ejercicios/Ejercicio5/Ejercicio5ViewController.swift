@@ -40,9 +40,9 @@ class Ejercicio5ViewController: UIViewController {
     }
     
     func areaYVolumenCilindro(h: Double, r: Double){
-        var area = 2 * pi * r * ( h + r )
+        let area = 2 * pi * r * ( h + r )
         self.lblArea.text = "El area del cilindro es \(area) cm²"
-        var volu = pi * ( r * r ) * h
+        let volu = pi * ( r * r ) * h
         self.lblVolumen.text = "El volumen del cilindro es \(volu) cm³"
     }
     
