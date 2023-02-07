@@ -58,6 +58,14 @@ class ViewController: UIViewController {
         let ed = SeptimoEjecicioViewController(nibName: "SeptimoEjecicioViewController", bundle: .main)
         self.present(ed, animated: true)
     }
+    
+    
+    
+    @IBAction func goToEight(_ sender: Any) {
+        let ed = OctavoEjercicioViewController(nibName: "OctavoEjercicioViewController", bundle: .main)
+        self.present(ed, animated: true)
+    }
+    
     //MARK: - NAVIGATION
     
     

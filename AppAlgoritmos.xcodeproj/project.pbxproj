@@ -19,6 +19,8 @@
 		A2773C88298837E4009F73EE /* EjercicioDosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2773C86298837E4009F73EE /* EjercicioDosViewController.xib */; };
 		A2773C912988B335009F73EE /* TercerEjercicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2773C8F2988B335009F73EE /* TercerEjercicioViewController.swift */; };
 		A2773C922988B335009F73EE /* TercerEjercicioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2773C902988B335009F73EE /* TercerEjercicioViewController.xib */; };
+		A29D19EB2991CB4700B68D7B /* OctavoEjercicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29D19E92991CB4700B68D7B /* OctavoEjercicioViewController.swift */; };
+		A29D19EC2991CB4700B68D7B /* OctavoEjercicioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A29D19EA2991CB4700B68D7B /* OctavoEjercicioViewController.xib */; };
 		A2CDF041298AD7DF006F8461 /* CuartoEjercicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CDF03F298AD7DF006F8461 /* CuartoEjercicioViewController.swift */; };
 		A2CDF042298AD7DF006F8461 /* CuartoEjercicioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2CDF040298AD7DF006F8461 /* CuartoEjercicioViewController.xib */; };
 		A2CDF04D298B4FDB006F8461 /* QuintoEjeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CDF04B298B4FDB006F8461 /* QuintoEjeViewController.swift */; };
@@ -44,6 +46,8 @@
 		A2773C86298837E4009F73EE /* EjercicioDosViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EjercicioDosViewController.xib; sourceTree = "<group>"; };
 		A2773C8F2988B335009F73EE /* TercerEjercicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TercerEjercicioViewController.swift; sourceTree = "<group>"; };
 		A2773C902988B335009F73EE /* TercerEjercicioViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TercerEjercicioViewController.xib; sourceTree = "<group>"; };
+		A29D19E92991CB4700B68D7B /* OctavoEjercicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctavoEjercicioViewController.swift; sourceTree = "<group>"; };
+		A29D19EA2991CB4700B68D7B /* OctavoEjercicioViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OctavoEjercicioViewController.xib; sourceTree = "<group>"; };
 		A2CDF03F298AD7DF006F8461 /* CuartoEjercicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuartoEjercicioViewController.swift; sourceTree = "<group>"; };
 		A2CDF040298AD7DF006F8461 /* CuartoEjercicioViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CuartoEjercicioViewController.xib; sourceTree = "<group>"; };
 		A2CDF04B298B4FDB006F8461 /* QuintoEjeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuintoEjeViewController.swift; sourceTree = "<group>"; };
@@ -114,7 +118,11 @@
 				A2773C8D2988A862009F73EE /* Ejercicio cinco */,
 				A2773C8E2988A874009F73EE /* Ejercicio seis */,
 				A2CDF04F298B57BA006F8461 /* Ejercicio siete */,
-				A2CDF050298B57C7006F8461 /* Ejercicio ocho */,
+				A29D19E42991CAB700B68D7B /* Ejercicio ocho */,
+				A29D19E52991CAD600B68D7B /* Ejercicio nueve */,
+				A29D19E62991CAEB00B68D7B /* Ejercicio diez */,
+				A29D19E72991CAFB00B68D7B /* Ejercicio once */,
+				A29D19E82991CB1B00B68D7B /* Ejercicio doce */,
 			);
 			path = Ejercicios;
 			sourceTree = "<group>";
@@ -173,6 +181,43 @@
 			path = "Ejercicio seis";
 			sourceTree = "<group>";
 		};
+		A29D19E42991CAB700B68D7B /* Ejercicio ocho */ = {
+			isa = PBXGroup;
+			children = (
+				A29D19E92991CB4700B68D7B /* OctavoEjercicioViewController.swift */,
+				A29D19EA2991CB4700B68D7B /* OctavoEjercicioViewController.xib */,
+			);
+			path = "Ejercicio ocho";
+			sourceTree = "<group>";
+		};
+		A29D19E52991CAD600B68D7B /* Ejercicio nueve */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Ejercicio nueve";
+			sourceTree = "<group>";
+		};
+		A29D19E62991CAEB00B68D7B /* Ejercicio diez */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Ejercicio diez";
+			sourceTree = "<group>";
+		};
+		A29D19E72991CAFB00B68D7B /* Ejercicio once */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Ejercicio once";
+			sourceTree = "<group>";
+		};
+		A29D19E82991CB1B00B68D7B /* Ejercicio doce */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Ejercicio doce";
+			sourceTree = "<group>";
+		};
 		A2CDF04F298B57BA006F8461 /* Ejercicio siete */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,13 +225,6 @@
 				A2CDF056298B5E71006F8461 /* SeptimoEjecicioViewController.xib */,
 			);
 			path = "Ejercicio siete";
-			sourceTree = "<group>";
-		};
-		A2CDF050298B57C7006F8461 /* Ejercicio ocho */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Ejercicio ocho";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +285,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A29D19EC2991CB4700B68D7B /* OctavoEjercicioViewController.xib in Resources */,
 				A2CDF042298AD7DF006F8461 /* CuartoEjercicioViewController.xib in Resources */,
 				3440A45C298236460009B0FA /* LaunchScreen.storyboard in Resources */,
 				A2773C922988B335009F73EE /* TercerEjercicioViewController.xib in Resources */,
@@ -268,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3440A454298236430009B0FA /* ViewController.swift in Sources */,
+				A29D19EB2991CB4700B68D7B /* OctavoEjercicioViewController.swift in Sources */,
 				3440A450298236430009B0FA /* AppDelegate.swift in Sources */,
 				3440A467298236BB0009B0FA /* EjercicioUnoViewController.swift in Sources */,
 				A2773C912988B335009F73EE /* TercerEjercicioViewController.swift in Sources */,

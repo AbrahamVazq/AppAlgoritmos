@@ -74,9 +74,19 @@
                                             <action selector="goToSeven:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t1d-jz-Yz9"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mLh-lz-Auu">
+                                        <rect key="frame" x="30" y="505" width="103" height="36"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Ejercicio 8"/>
+                                        <connections>
+                                            <action selector="goToEight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rFe-fO-cr7"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="mLh-lz-Auu" secondAttribute="trailing" constant="260" id="5ZD-QQ-8H2"/>
                                     <constraint firstItem="LYX-nK-F86" firstAttribute="leading" secondItem="ttQ-Op-yS9" secondAttribute="leading" constant="30" id="6N9-Gd-aGP"/>
                                     <constraint firstItem="l4b-gT-585" firstAttribute="leading" secondItem="ttQ-Op-yS9" secondAttribute="leading" constant="37" id="BFg-Xb-963"/>
                                     <constraint firstItem="elS-zz-aqC" firstAttribute="leading" secondItem="ttQ-Op-yS9" secondAttribute="leading" constant="36" id="D57-bN-Yv9"/>
@@ -88,10 +98,12 @@
                                     <constraint firstAttribute="trailing" secondItem="l4b-gT-585" secondAttribute="trailing" constant="253" id="djB-AU-3aZ"/>
                                     <constraint firstAttribute="trailing" secondItem="LYX-nK-F86" secondAttribute="trailing" constant="260" id="gJG-yh-QDD"/>
                                     <constraint firstItem="IsY-Sv-pHm" firstAttribute="leading" secondItem="elS-zz-aqC" secondAttribute="leading" id="gc2-qA-cYB"/>
+                                    <constraint firstItem="mLh-lz-Auu" firstAttribute="leading" secondItem="ttQ-Op-yS9" secondAttribute="leading" constant="30" id="gcA-JB-Yj6"/>
                                     <constraint firstItem="IsY-Sv-pHm" firstAttribute="top" secondItem="elS-zz-aqC" secondAttribute="bottom" constant="18" id="jHk-6v-y6j"/>
                                     <constraint firstItem="elS-zz-aqC" firstAttribute="top" secondItem="qSj-K9-uPj" secondAttribute="bottom" constant="20" id="jfG-HX-0Vh"/>
                                     <constraint firstItem="l4b-gT-585" firstAttribute="top" secondItem="Eux-ZC-AhA" secondAttribute="bottom" constant="17" id="nOo-Dg-sZg"/>
                                     <constraint firstItem="IsY-Sv-pHm" firstAttribute="leading" secondItem="ttQ-Op-yS9" secondAttribute="leading" constant="36" id="vxL-m9-X1g"/>
+                                    <constraint firstItem="mLh-lz-Auu" firstAttribute="top" secondItem="LYX-nK-F86" secondAttribute="bottom" constant="21" id="w9o-Gx-PVz"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L5e-Tf-g5R">
