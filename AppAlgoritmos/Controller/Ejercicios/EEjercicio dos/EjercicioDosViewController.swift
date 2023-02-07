@@ -103,9 +103,6 @@ class EjercicioDosViewController: UIViewController {
     }
     
 
-    
-    
-        
         //MARK: - ACTIONS
   
     @IBAction func btnResult(_ sender: Any) {
@@ -118,6 +115,4 @@ class EjercicioDosViewController: UIViewController {
         
     }
     //MARK: - NAVIGATION
-    
-    
 }

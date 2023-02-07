@@ -66,6 +66,12 @@ class ViewController: UIViewController {
         self.present(ed, animated: true)
     }
     
+    
+    @IBAction func goToNine(_ sender: Any) {
+        let ed = NovenoEjercicioViewController(nibName: "NovenoEjercicioViewController", bundle: .main)
+        self.present(ed, animated: true)
+    }
+    
     //MARK: - NAVIGATION
     
     

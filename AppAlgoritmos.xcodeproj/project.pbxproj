@@ -21,6 +21,8 @@
 		A2773C922988B335009F73EE /* TercerEjercicioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2773C902988B335009F73EE /* TercerEjercicioViewController.xib */; };
 		A29D19EB2991CB4700B68D7B /* OctavoEjercicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29D19E92991CB4700B68D7B /* OctavoEjercicioViewController.swift */; };
 		A29D19EC2991CB4700B68D7B /* OctavoEjercicioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A29D19EA2991CB4700B68D7B /* OctavoEjercicioViewController.xib */; };
+		A29D19EF2991DAB300B68D7B /* NovenoEjercicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29D19ED2991DAB300B68D7B /* NovenoEjercicioViewController.swift */; };
+		A29D19F02991DAB300B68D7B /* NovenoEjercicioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A29D19EE2991DAB300B68D7B /* NovenoEjercicioViewController.xib */; };
 		A2CDF041298AD7DF006F8461 /* CuartoEjercicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CDF03F298AD7DF006F8461 /* CuartoEjercicioViewController.swift */; };
 		A2CDF042298AD7DF006F8461 /* CuartoEjercicioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2CDF040298AD7DF006F8461 /* CuartoEjercicioViewController.xib */; };
 		A2CDF04D298B4FDB006F8461 /* QuintoEjeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CDF04B298B4FDB006F8461 /* QuintoEjeViewController.swift */; };
@@ -48,6 +50,8 @@
 		A2773C902988B335009F73EE /* TercerEjercicioViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TercerEjercicioViewController.xib; sourceTree = "<group>"; };
 		A29D19E92991CB4700B68D7B /* OctavoEjercicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctavoEjercicioViewController.swift; sourceTree = "<group>"; };
 		A29D19EA2991CB4700B68D7B /* OctavoEjercicioViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OctavoEjercicioViewController.xib; sourceTree = "<group>"; };
+		A29D19ED2991DAB300B68D7B /* NovenoEjercicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovenoEjercicioViewController.swift; sourceTree = "<group>"; };
+		A29D19EE2991DAB300B68D7B /* NovenoEjercicioViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NovenoEjercicioViewController.xib; sourceTree = "<group>"; };
 		A2CDF03F298AD7DF006F8461 /* CuartoEjercicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuartoEjercicioViewController.swift; sourceTree = "<group>"; };
 		A2CDF040298AD7DF006F8461 /* CuartoEjercicioViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CuartoEjercicioViewController.xib; sourceTree = "<group>"; };
 		A2CDF04B298B4FDB006F8461 /* QuintoEjeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuintoEjeViewController.swift; sourceTree = "<group>"; };
@@ -193,6 +197,8 @@
 		A29D19E52991CAD600B68D7B /* Ejercicio nueve */ = {
 			isa = PBXGroup;
 			children = (
+				A29D19ED2991DAB300B68D7B /* NovenoEjercicioViewController.swift */,
+				A29D19EE2991DAB300B68D7B /* NovenoEjercicioViewController.xib */,
 			);
 			path = "Ejercicio nueve";
 			sourceTree = "<group>";
@@ -294,6 +300,7 @@
 				3440A468298236BB0009B0FA /* EjercicioUnoViewController.xib in Resources */,
 				A2CDF054298B582C006F8461 /* SextoEjercicioViewController.xib in Resources */,
 				3440A459298236460009B0FA /* Assets.xcassets in Resources */,
+				A29D19F02991DAB300B68D7B /* NovenoEjercicioViewController.xib in Resources */,
 				3440A457298236430009B0FA /* Main.storyboard in Resources */,
 				A2CDF058298B5E71006F8461 /* SeptimoEjecicioViewController.xib in Resources */,
 			);
@@ -313,6 +320,7 @@
 				A2773C912988B335009F73EE /* TercerEjercicioViewController.swift in Sources */,
 				A2CDF053298B582C006F8461 /* SextoEjercicioViewController.swift in Sources */,
 				3440A452298236430009B0FA /* SceneDelegate.swift in Sources */,
+				A29D19EF2991DAB300B68D7B /* NovenoEjercicioViewController.swift in Sources */,
 				A2773C87298837E4009F73EE /* EjercicioDosViewController.swift in Sources */,
 				A2CDF04D298B4FDB006F8461 /* QuintoEjeViewController.swift in Sources */,
 				A2CDF041298AD7DF006F8461 /* CuartoEjercicioViewController.swift in Sources */,

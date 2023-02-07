@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NovenoEjercicioViewController" customModule="AppAlgoritmos" customModuleProvider="target">
+            <connections>
+                <outlet property="lblResult" destination="b3R-Vh-Itd" id="awU-0c-YYM"/>
+                <outlet property="txfVal" destination="HYm-7a-5sX" id="s3T-MD-hbb"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¿Son numeros primos?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9fo-gz-tJo">
+                    <rect key="frame" x="62" y="91" width="269" height="30"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ingresa numero a analizar" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HYm-7a-5sX">
+                    <rect key="frame" x="16" y="201" width="361" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RESULTADO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b3R-Vh-Itd">
+                    <rect key="frame" x="62" y="499" width="269" height="20.333333333333371"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1xF-12-5vE">
+                    <rect key="frame" x="100" y="347" width="193" height="56"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="56" id="AeA-rU-nUs"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="AVERIGUALO"/>
+                    <connections>
+                        <action selector="btnAverigua:" destination="-1" eventType="touchUpInside" id="jAI-wH-5r9"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="HYm-7a-5sX" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="82E-22-EwY"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="HYm-7a-5sX" secondAttribute="trailing" constant="16" id="DJb-sb-ij5"/>
+                <constraint firstItem="1xF-12-5vE" firstAttribute="top" secondItem="HYm-7a-5sX" secondAttribute="bottom" constant="112" id="QdR-jw-1Nm"/>
+                <constraint firstItem="HYm-7a-5sX" firstAttribute="top" secondItem="9fo-gz-tJo" secondAttribute="bottom" constant="80" id="UyW-IQ-40A"/>
+                <constraint firstItem="9fo-gz-tJo" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="32" id="V4F-Nb-BZZ"/>
+                <constraint firstItem="9fo-gz-tJo" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="62" id="WYz-4d-k4L"/>
+                <constraint firstItem="b3R-Vh-Itd" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="62" id="hCi-MQ-Dmy"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="1xF-12-5vE" secondAttribute="trailing" constant="100" id="r7a-6D-A4W"/>
+                <constraint firstItem="b3R-Vh-Itd" firstAttribute="top" secondItem="1xF-12-5vE" secondAttribute="bottom" constant="96" id="t9Q-TA-e5d"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="b3R-Vh-Itd" secondAttribute="trailing" constant="62" id="uc9-hK-6VG"/>
+                <constraint firstItem="1xF-12-5vE" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="100" id="x8j-gR-DyL"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="9fo-gz-tJo" secondAttribute="trailing" constant="62" id="yDq-4Q-hlQ"/>
+            </constraints>
+            <point key="canvasLocation" x="52.671755725190835" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
