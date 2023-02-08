@@ -11,6 +11,11 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Ejercicio7ViewController" customModule="AppAlgoritmos" customModuleProvider="target">
             <connections>
+                <outlet property="btnValidarNota" destination="cJE-7e-519" id="lRU-EE-FHU"/>
+                <outlet property="lblE7" destination="00w-JH-IhM" id="z3p-Xd-C54"/>
+                <outlet property="lblResultadoE7" destination="ycB-Dd-sRc" id="Aik-zh-R6y"/>
+                <outlet property="lblbTitleE7" destination="kos-mI-zOT" id="CTY-aX-hYc"/>
+                <outlet property="txtIngreseNota" destination="AKI-ta-oGy" id="Pi5-Kt-naB"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -28,12 +33,61 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CONVERTIR NOTA NUMERICA " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kos-mI-zOT">
+                    <rect key="frame" x="24" y="131" width="345" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="A7Y-4c-gHc"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="INGRESE NOTA " textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AKI-ta-oGy">
+                    <rect key="frame" x="120" y="179" width="153" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="NS1-zq-Vyl"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cJE-7e-519">
+                    <rect key="frame" x="124" y="237" width="145" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="OXH-oG-jgM"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="VALIDAR NOTA "/>
+                    <connections>
+                        <action selector="btnValidarResultado:" destination="-1" eventType="touchUpInside" id="aRf-cp-Hat"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(RESULTADO)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ycB-Dd-sRc">
+                    <rect key="frame" x="24" y="296" width="345" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="32" id="DnV-Tq-crn"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="00w-JH-IhM" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="24" id="6Nv-KQ-72c"/>
+                <constraint firstItem="AKI-ta-oGy" firstAttribute="top" secondItem="kos-mI-zOT" secondAttribute="bottom" constant="24" id="6gJ-kO-D8i"/>
+                <constraint firstItem="ycB-Dd-sRc" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="9RT-Cr-eA9"/>
+                <constraint firstItem="cJE-7e-519" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="124" id="CgR-O1-wZd"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="cJE-7e-519" secondAttribute="trailing" constant="124" id="DUb-MI-Izb"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ycB-Dd-sRc" secondAttribute="trailing" constant="24" id="E6Y-o2-SOv"/>
+                <constraint firstItem="AKI-ta-oGy" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="120" id="EYY-t0-q4X"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="AKI-ta-oGy" secondAttribute="trailing" constant="120" id="LW0-2U-Otj"/>
+                <constraint firstItem="kos-mI-zOT" firstAttribute="top" secondItem="00w-JH-IhM" secondAttribute="bottom" constant="24" id="Pbg-nD-Vb2"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="kos-mI-zOT" secondAttribute="trailing" constant="24" id="RMm-CM-LNs"/>
+                <constraint firstItem="ycB-Dd-sRc" firstAttribute="top" secondItem="cJE-7e-519" secondAttribute="bottom" constant="24" id="hSZ-Ve-bcU"/>
                 <constraint firstItem="00w-JH-IhM" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="jeO-OC-mfH"/>
+                <constraint firstItem="cJE-7e-519" firstAttribute="top" secondItem="AKI-ta-oGy" secondAttribute="bottom" constant="24" id="kQu-s6-2hO"/>
+                <constraint firstItem="kos-mI-zOT" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="uxg-6A-ajR"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="00w-JH-IhM" secondAttribute="trailing" constant="24" id="xXx-LL-laA"/>
             </constraints>
             <point key="canvasLocation" x="132" y="-11"/>
