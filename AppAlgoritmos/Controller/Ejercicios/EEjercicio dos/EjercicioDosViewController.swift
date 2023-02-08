@@ -58,27 +58,27 @@ class EjercicioDosViewController: UIViewController {
         return true
     }
     
+    func reinicio(){
+        txf1.text = ""
+        txf2.text = ""
+        txf3.text = ""
+    }
+    
     func validaDif(val1: Int, val2: Int, val3: Int) -> Bool {
         if val1 == val2{
             self.showAlert(WithTitle: "A L G O   A N D A   M A L", AndMessage: "los valores deben ser diferentes")
             self.lblResult.text = "intenta de nuevo"
-            txf1.text = ""
-            txf2.text = ""
-            txf3.text = ""
+            reinicio()
             return false
         }else if val1 == val3{
             self.showAlert(WithTitle: "A L G O   A N D A   M A L", AndMessage: "los valores deben ser diferentes")
             self.lblResult.text = "intenta de nuevo"
-            txf1.text = ""
-            txf2.text = ""
-            txf3.text = ""
+           reinicio()
             return false
         }else if val2 == val3 {
             self.showAlert(WithTitle: "A L G O   A N D A   M A L", AndMessage: "los valores deben ser diferentes")
             self.lblResult.text = "intenta de nuevo"
-            txf1.text = ""
-            txf2.text = ""
-            txf3.text = ""
+            reinicio()
         }
         return true
     }
@@ -86,19 +86,13 @@ class EjercicioDosViewController: UIViewController {
     func validaMayor(val1: Int, val2: Int, val3: Int) {
         if (val1 > val2) && (val1 > val3) {
             self.lblResult.text = "\(val1) es el mayor"
-            txf1.text = ""
-            txf2.text = ""
-            txf3.text = ""
+            reinicio()
         }else if (val2 > val1) && (val2 > val3) {
             self.lblResult.text = "\(val2) es el mayor"
-            txf1.text = ""
-            txf2.text = ""
-            txf3.text = ""
+           reinicio()
         }else{
             self.lblResult.text = "\(val3) es el mayor"
-            txf1.text = ""
-            txf2.text = ""
-            txf3.text = ""
+            reinicio()
         }
     }
     
