@@ -11,6 +11,12 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Ejercicio8ViewController" customModule="AppAlgoritmos" customModuleProvider="target">
             <connections>
+                <outlet property="btnOrdenarNumeros" destination="RuT-Vy-fdb" id="VbX-hK-wJL"/>
+                <outlet property="lblE8" destination="M8E-nq-d4t" id="Oi9-Tu-aYB"/>
+                <outlet property="lblResultadoE8" destination="L5p-gr-d42" id="aw8-2B-BmB"/>
+                <outlet property="lblTitleE8" destination="8yR-na-o5j" id="s08-39-3na"/>
+                <outlet property="txtPrimernumero" destination="T5T-kh-2AW" id="vDt-KO-eRD"/>
+                <outlet property="txtSegundoNumero" destination="Ftb-Ve-iWl" id="Nbc-Om-aEL"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -28,13 +34,70 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ORDENAR LOS NUMEROS INTRODUCIDOS DE MENOR A MAYOR" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8yR-na-o5j">
+                    <rect key="frame" x="24" y="131" width="345" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="sCK-fZ-i35"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="INGRESE PRIMER NUMERO" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T5T-kh-2AW">
+                    <rect key="frame" x="90" y="197" width="213" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="43Y-dw-7zV"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="INGRESE SEGUNDO NUMERO " textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ftb-Ve-iWl">
+                    <rect key="frame" x="90" y="255" width="213" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="sfW-uM-RBA"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RuT-Vy-fdb">
+                    <rect key="frame" x="100" y="313" width="193" height="35"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="ORDENAR NUMEROS "/>
+                    <connections>
+                        <action selector="btnOrdenarNum:" destination="-1" eventType="touchUpInside" id="eN5-NP-P1G"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(RESULTADO)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L5p-gr-d42">
+                    <rect key="frame" x="24" y="372" width="345" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="wEv-26-pN3"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
+                <constraint firstAttribute="trailing" secondItem="8yR-na-o5j" secondAttribute="trailing" constant="24" id="0zx-DA-Vq2"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="L5p-gr-d42" secondAttribute="trailing" constant="24" id="1fU-yZ-abf"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Ftb-Ve-iWl" secondAttribute="trailing" constant="90" id="53X-Ty-7yJ"/>
                 <constraint firstItem="M8E-nq-d4t" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="7l2-VV-x5K"/>
+                <constraint firstItem="Ftb-Ve-iWl" firstAttribute="top" secondItem="T5T-kh-2AW" secondAttribute="bottom" constant="24" id="FRZ-Qb-qdH"/>
+                <constraint firstItem="Ftb-Ve-iWl" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="90" id="Fob-b9-bYn"/>
+                <constraint firstItem="RuT-Vy-fdb" firstAttribute="top" secondItem="Ftb-Ve-iWl" secondAttribute="bottom" constant="24" id="JSu-0C-0y6"/>
+                <constraint firstItem="8yR-na-o5j" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="Ml9-zi-NpC"/>
+                <constraint firstItem="8yR-na-o5j" firstAttribute="top" secondItem="M8E-nq-d4t" secondAttribute="bottom" constant="24" id="PpK-Od-aY3"/>
+                <constraint firstItem="RuT-Vy-fdb" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="100" id="PvV-jp-xuQ"/>
+                <constraint firstItem="L5p-gr-d42" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="REO-CT-G0o"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="M8E-nq-d4t" secondAttribute="trailing" constant="24" id="TXk-De-ydW"/>
+                <constraint firstItem="T5T-kh-2AW" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="90" id="VuY-7O-BFs"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="RuT-Vy-fdb" secondAttribute="trailing" constant="100" id="ZEa-YR-x3i"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="T5T-kh-2AW" secondAttribute="trailing" constant="90" id="dU6-xG-skF"/>
                 <constraint firstItem="M8E-nq-d4t" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="24" id="dXL-o0-tS1"/>
+                <constraint firstItem="L5p-gr-d42" firstAttribute="top" secondItem="RuT-Vy-fdb" secondAttribute="bottom" constant="24" id="lxL-bI-h3U"/>
+                <constraint firstItem="T5T-kh-2AW" firstAttribute="top" secondItem="8yR-na-o5j" secondAttribute="bottom" constant="24" id="uDf-IB-rba"/>
             </constraints>
             <point key="canvasLocation" x="132" y="-11"/>
         </view>

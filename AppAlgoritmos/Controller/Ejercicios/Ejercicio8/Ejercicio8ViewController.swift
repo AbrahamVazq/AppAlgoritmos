@@ -8,22 +8,62 @@
 import UIKit
 
 class Ejercicio8ViewController: UIViewController {
+    
+    //MARK: - OUTLETS
 
+    @IBOutlet weak var lblE8: UILabel!
+    @IBOutlet weak var lblTitleE8: UILabel!
+    @IBOutlet weak var txtPrimernumero: UITextField!
+    @IBOutlet weak var txtSegundoNumero: UITextField!
+    @IBOutlet weak var btnOrdenarNumeros: UIButton!
+    @IBOutlet weak var lblResultadoE8: UILabel!
+
+
+    //MARK: - VARIABLES
+    
+    var prNum: Int = 0
+    var sgNum: Int = 0
+
+    
+    //MARK: - LIFE · CYCLE
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
 
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+//MARK: - FUNCTIONS
+    
+    
+    func saveValuesE8(){
+        self.prNum = Int(txtPrimernumero.text ?? "0") ?? 0
+        self.sgNum = Int(txtSegundoNumero.text ?? "0") ?? 0
     }
-    */
+    
+    func ordenarNumerosMenAMay(primNum: Int, segundNum: Int){
+        if primNum < segundNum{
+            self.lblResultadoE8.text = "El numero \(primNum) es menor que \(segundNum)"
+        }else{
+            self.lblResultadoE8.text = "El numero \(segundNum) es menor que \(primNum)"
+        }
+    }
+    
+    
+//MARK: - ACTIONS
+    
+    
+    @IBAction func btnOrdenarNum(_ sender: Any) {
+        saveValuesE8()
+        ordenarNumerosMenAMay(primNum: prNum, segundNum: sgNum)
+    }
+    
+    
+    
+    
+//MARK: - NAVIGATIONS
+    
+    
+    
+
+  
 
 }
