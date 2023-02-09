@@ -75,6 +75,10 @@ class ViewController: UIViewController {
     
     
     
+    @IBAction func goToTen(_ sender: Any) {
+        let ed = DecimoEjercicioViewController(nibName: "DecimoEjercicioViewController", bundle: .main)
+        self.present(ed, animated: true)
+    }
     
     
     

@@ -42,7 +42,7 @@ class OnceavoEjercicioViewController : UIViewController {
     }
     
     func  conKm (velocidad km: Double){
-        var convAms = km / 3.6
+        let convAms = km / 3.6
         if km == 0 {
             self.showAlert(WithTitle: "E R R O R", AndMessage: "DEBES PONER UNA VELOCIDAD EN km/hr")
             self.lblResult.text = " ** E R R O R **"
@@ -52,7 +52,7 @@ class OnceavoEjercicioViewController : UIViewController {
     }
     
     func conms (velocidad ms: Double){
-        var conAkm = ms * 3.6
+        let conAkm = ms * 3.6
         if ms == 0 {
             self.showAlert(WithTitle: "E R R O R", AndMessage: "DEBES PONER UNA VELOCIDAD EN m/s")
             self.lblResult.text = " ** E R R O R **"
