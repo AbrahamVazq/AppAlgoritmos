@@ -32,13 +32,33 @@ class Ejercicio10ViewController: UIViewController {
         self.horaSalida = Int(txtHoraSalida.text ?? "0") ?? 0
     }
     
+    func validarCampos() -> Bool{
+        if txtHoraEntrada.text == "" && txtHoraSalida.text == "" {
+            self.lblPago.text = "Por favor ingrese ambos horarios"
+            return false
+        }else if txtHoraEntrada.text == "" || txtHoraSalida.text == "" {
+            self.lblPago.text = "Por favor ingrese todos los datos"
+            return false
+        }else{
+            return true
+        }
+    }
+    
+    func limiteDeCampos() -> Bool{
+        if horaEntada > 2400 && horaSalida > 2400{
+            self.lblPago.text = "Por favor ingrese un horario diferente"
+            return false
+        }
+        return true
+    }
+    
     
     
     func cobroPorHora(HE: Int, HS: Int){
-        var horaEstadia = HS - HE
-        let horaFr = horaEstadia - HS
-        if horaEstadia <= 1 {
-            self.lblPago.text = "Monto a pagar \(horaEstadia * tarifaPorHora)"
+        let horaEstadia = HS - HE
+ //  let horaFr = horaEstadia - HS
+        if horaEstadia <= 100 {
+            self.lblPago.text = "Monto a pagar \(horaEstadia/100 * tarifaPorHora)"
         }else if horaEstadia >= 1 {
             self.lblPago.text = "Monto a pagar \(horaEstadia * tarifaPorHora)"
         }
@@ -50,8 +70,15 @@ class Ejercicio10ViewController: UIViewController {
     
     
     @IBAction func btnCobrarEstadia(_ sender: Any) {
-        saveValuesE10()
-        cobroPorHora(HE: horaEntada, HS: horaSalida)
+        if validarCampos(){
+            saveValuesE10()
+            if limiteDeCampos(){
+                print("si paso")
+                cobroPorHora(HE: horaEntada, HS: horaSalida)
+            }
+            
+        }
+        
     }
     
     
