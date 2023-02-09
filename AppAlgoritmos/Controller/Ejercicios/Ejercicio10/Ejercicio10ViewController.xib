@@ -11,6 +11,12 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Ejercicio10ViewController" customModule="AppAlgoritmos" customModuleProvider="target">
             <connections>
+                <outlet property="btnCobrar" destination="cz1-Gr-1eO" id="Tmw-Ar-4p4"/>
+                <outlet property="lblE10" destination="3nx-kc-XLH" id="X5e-Lx-PKG"/>
+                <outlet property="lblPago" destination="EPz-Xs-i7k" id="Al7-MQ-n8D"/>
+                <outlet property="lblTitleE10" destination="kA2-eh-0Sm" id="V8f-gA-9GV"/>
+                <outlet property="txtHoraEntrada" destination="9gh-az-et3" id="r9d-Tf-5jk"/>
+                <outlet property="txtHoraSalida" destination="1r9-1i-Ks8" id="uHb-BD-LQg"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -28,13 +34,73 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COSTO DE ESTACIONAMIENTO POR HORA " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kA2-eh-0Sm">
+                    <rect key="frame" x="24" y="131" width="345" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="32" id="KSf-5g-Ssd"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="HORA DE ENTRADA " textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9gh-az-et3">
+                    <rect key="frame" x="80" y="187" width="233" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="gtR-ns-PUb"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="HORA DE SALIDA  " textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1r9-1i-Ks8">
+                    <rect key="frame" x="80" y="245" width="233" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="8dY-Mo-t1c"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cz1-Gr-1eO">
+                    <rect key="frame" x="150" y="303" width="93" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="g1d-fg-Gwl"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="COBRAR "/>
+                    <connections>
+                        <action selector="btnCobrarEstadia:" destination="-1" eventType="touchUpInside" id="pW6-Ms-0WT"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(MONTO A PAGAR) " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EPz-Xs-i7k">
+                    <rect key="frame" x="32" y="362" width="329" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="32" id="zM5-5C-V9L"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
+                <constraint firstItem="EPz-Xs-i7k" firstAttribute="top" secondItem="cz1-Gr-1eO" secondAttribute="bottom" constant="24" id="1sM-Vg-nao"/>
+                <constraint firstItem="9gh-az-et3" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="80" id="4lF-eS-8lf"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="cz1-Gr-1eO" secondAttribute="trailing" constant="150" id="4y1-Ff-MUn"/>
                 <constraint firstItem="3nx-kc-XLH" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="24" id="8qm-g8-B3y"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="3nx-kc-XLH" secondAttribute="trailing" constant="24" id="9Mc-Hn-YG8"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="9gh-az-et3" secondAttribute="trailing" constant="80" id="Aqq-Y7-duB"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="EPz-Xs-i7k" secondAttribute="trailing" constant="32" id="BnN-h7-jqv"/>
+                <constraint firstItem="cz1-Gr-1eO" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="150" id="DOs-sz-jk7"/>
+                <constraint firstItem="9gh-az-et3" firstAttribute="top" secondItem="kA2-eh-0Sm" secondAttribute="bottom" constant="24" id="FRX-XD-x7J"/>
+                <constraint firstItem="EPz-Xs-i7k" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="32" id="GVj-Dw-vNl"/>
                 <constraint firstItem="3nx-kc-XLH" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="UwT-iQ-JIP"/>
+                <constraint firstItem="cz1-Gr-1eO" firstAttribute="top" secondItem="1r9-1i-Ks8" secondAttribute="bottom" constant="24" id="XqF-aJ-q2Q"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="1r9-1i-Ks8" secondAttribute="trailing" constant="80" id="afL-Kh-5bY"/>
+                <constraint firstItem="1r9-1i-Ks8" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="80" id="g0i-wi-26W"/>
+                <constraint firstItem="kA2-eh-0Sm" firstAttribute="top" secondItem="3nx-kc-XLH" secondAttribute="bottom" constant="24" id="n6A-qm-8Ba"/>
+                <constraint firstItem="kA2-eh-0Sm" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="qYf-kI-4h7"/>
+                <constraint firstItem="1r9-1i-Ks8" firstAttribute="top" secondItem="9gh-az-et3" secondAttribute="bottom" constant="24" id="tsH-zm-SbU"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="kA2-eh-0Sm" secondAttribute="trailing" constant="24" id="uJ2-xf-ZV3"/>
             </constraints>
             <point key="canvasLocation" x="132" y="-11"/>
         </view>
