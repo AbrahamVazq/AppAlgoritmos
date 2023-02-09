@@ -10,7 +10,7 @@ class ViewController: UIViewController {
     
     //MARK: - VARIABLES
     
-
+    
     //MARK: - LIFE · CYCLE
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -72,6 +72,19 @@ class ViewController: UIViewController {
         self.present(ed, animated: true)
     }
     
+    
+    
+    
+    
+    
+    
+    
+    @IBAction func goToEleven(_ sender: Any) {
+        
+        let ed = OnceavoEjercicioViewController(nibName: "OnceavoEjercicioViewController", bundle: .main)
+        self.present(ed, animated: true)
+        
+    }
     //MARK: - NAVIGATION
     
     

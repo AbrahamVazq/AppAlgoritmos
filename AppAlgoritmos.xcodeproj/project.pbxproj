@@ -19,6 +19,10 @@
 		A2773C88298837E4009F73EE /* EjercicioDosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2773C86298837E4009F73EE /* EjercicioDosViewController.xib */; };
 		A2773C912988B335009F73EE /* TercerEjercicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2773C8F2988B335009F73EE /* TercerEjercicioViewController.swift */; };
 		A2773C922988B335009F73EE /* TercerEjercicioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2773C902988B335009F73EE /* TercerEjercicioViewController.xib */; };
+		A2946F0F29944F9700496DD9 /* DecimoEjercicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2946F0D29944F9700496DD9 /* DecimoEjercicioViewController.swift */; };
+		A2946F1029944F9700496DD9 /* DecimoEjercicioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2946F0E29944F9700496DD9 /* DecimoEjercicioViewController.xib */; };
+		A2946F152994777700496DD9 /* OnceavoEjercicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2946F132994777700496DD9 /* OnceavoEjercicioViewController.swift */; };
+		A2946F162994777700496DD9 /* OnceavoEjercicioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2946F142994777700496DD9 /* OnceavoEjercicioViewController.xib */; };
 		A29D19EB2991CB4700B68D7B /* OctavoEjercicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29D19E92991CB4700B68D7B /* OctavoEjercicioViewController.swift */; };
 		A29D19EC2991CB4700B68D7B /* OctavoEjercicioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A29D19EA2991CB4700B68D7B /* OctavoEjercicioViewController.xib */; };
 		A29D19EF2991DAB300B68D7B /* NovenoEjercicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29D19ED2991DAB300B68D7B /* NovenoEjercicioViewController.swift */; };
@@ -48,6 +52,10 @@
 		A2773C86298837E4009F73EE /* EjercicioDosViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EjercicioDosViewController.xib; sourceTree = "<group>"; };
 		A2773C8F2988B335009F73EE /* TercerEjercicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TercerEjercicioViewController.swift; sourceTree = "<group>"; };
 		A2773C902988B335009F73EE /* TercerEjercicioViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TercerEjercicioViewController.xib; sourceTree = "<group>"; };
+		A2946F0D29944F9700496DD9 /* DecimoEjercicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimoEjercicioViewController.swift; sourceTree = "<group>"; };
+		A2946F0E29944F9700496DD9 /* DecimoEjercicioViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DecimoEjercicioViewController.xib; sourceTree = "<group>"; };
+		A2946F132994777700496DD9 /* OnceavoEjercicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnceavoEjercicioViewController.swift; sourceTree = "<group>"; };
+		A2946F142994777700496DD9 /* OnceavoEjercicioViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnceavoEjercicioViewController.xib; sourceTree = "<group>"; };
 		A29D19E92991CB4700B68D7B /* OctavoEjercicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OctavoEjercicioViewController.swift; sourceTree = "<group>"; };
 		A29D19EA2991CB4700B68D7B /* OctavoEjercicioViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OctavoEjercicioViewController.xib; sourceTree = "<group>"; };
 		A29D19ED2991DAB300B68D7B /* NovenoEjercicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovenoEjercicioViewController.swift; sourceTree = "<group>"; };
@@ -206,6 +214,8 @@
 		A29D19E62991CAEB00B68D7B /* Ejercicio diez */ = {
 			isa = PBXGroup;
 			children = (
+				A2946F0D29944F9700496DD9 /* DecimoEjercicioViewController.swift */,
+				A2946F0E29944F9700496DD9 /* DecimoEjercicioViewController.xib */,
 			);
 			path = "Ejercicio diez";
 			sourceTree = "<group>";
@@ -213,6 +223,8 @@
 		A29D19E72991CAFB00B68D7B /* Ejercicio once */ = {
 			isa = PBXGroup;
 			children = (
+				A2946F132994777700496DD9 /* OnceavoEjercicioViewController.swift */,
+				A2946F142994777700496DD9 /* OnceavoEjercicioViewController.xib */,
 			);
 			path = "Ejercicio once";
 			sourceTree = "<group>";
@@ -294,12 +306,14 @@
 				A29D19EC2991CB4700B68D7B /* OctavoEjercicioViewController.xib in Resources */,
 				A2CDF042298AD7DF006F8461 /* CuartoEjercicioViewController.xib in Resources */,
 				3440A45C298236460009B0FA /* LaunchScreen.storyboard in Resources */,
+				A2946F1029944F9700496DD9 /* DecimoEjercicioViewController.xib in Resources */,
 				A2773C922988B335009F73EE /* TercerEjercicioViewController.xib in Resources */,
 				A2CDF04E298B4FDB006F8461 /* QuintoEjeViewController.xib in Resources */,
 				A2773C88298837E4009F73EE /* EjercicioDosViewController.xib in Resources */,
 				3440A468298236BB0009B0FA /* EjercicioUnoViewController.xib in Resources */,
 				A2CDF054298B582C006F8461 /* SextoEjercicioViewController.xib in Resources */,
 				3440A459298236460009B0FA /* Assets.xcassets in Resources */,
+				A2946F162994777700496DD9 /* OnceavoEjercicioViewController.xib in Resources */,
 				A29D19F02991DAB300B68D7B /* NovenoEjercicioViewController.xib in Resources */,
 				3440A457298236430009B0FA /* Main.storyboard in Resources */,
 				A2CDF058298B5E71006F8461 /* SeptimoEjecicioViewController.xib in Resources */,
@@ -317,12 +331,14 @@
 				A29D19EB2991CB4700B68D7B /* OctavoEjercicioViewController.swift in Sources */,
 				3440A450298236430009B0FA /* AppDelegate.swift in Sources */,
 				3440A467298236BB0009B0FA /* EjercicioUnoViewController.swift in Sources */,
+				A2946F152994777700496DD9 /* OnceavoEjercicioViewController.swift in Sources */,
 				A2773C912988B335009F73EE /* TercerEjercicioViewController.swift in Sources */,
 				A2CDF053298B582C006F8461 /* SextoEjercicioViewController.swift in Sources */,
 				3440A452298236430009B0FA /* SceneDelegate.swift in Sources */,
 				A29D19EF2991DAB300B68D7B /* NovenoEjercicioViewController.swift in Sources */,
 				A2773C87298837E4009F73EE /* EjercicioDosViewController.swift in Sources */,
 				A2CDF04D298B4FDB006F8461 /* QuintoEjeViewController.swift in Sources */,
+				A2946F0F29944F9700496DD9 /* DecimoEjercicioViewController.swift in Sources */,
 				A2CDF041298AD7DF006F8461 /* CuartoEjercicioViewController.swift in Sources */,
 				A2CDF057298B5E71006F8461 /* SeptimoEjecicioViewController.swift in Sources */,
 			);
