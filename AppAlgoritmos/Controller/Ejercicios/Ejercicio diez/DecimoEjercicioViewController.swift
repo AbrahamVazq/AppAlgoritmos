@@ -56,21 +56,53 @@ class DecimoEjercicioViewController : UIViewController {
         }
         return true
     }
+    func countNumbers(n: Int)->Int{
+        var count = 0
+        var num = n
+        if (num == 0){
+            return 1
+        }
+        while (num > 0){
+            num = num / 10
+            count += 1
+        }
+        return count
+    }
+    
+    func digitos (entrada he:Int, salida hs: Int)-> Bool{
+        if countNumbers(n: he) != 4 {
+            self.showAlert(WithTitle: "C U I D A D O", AndMessage: "RECUERDA USAR EL ESTILO DE HORA MILITAR")
+            reinicio()
+            errolbl()
+            return false
+        } else if countNumbers(n: hs) != 4 {
+            self.showAlert(WithTitle: "C U I D A D O", AndMessage: "RECUERDA USAR EL ESTILO DE HORA MILITAR")
+            reinicio()
+            errolbl()
+            return false
+        }else {
+        }
+        return true
+    }
     
     func reinicio(){
         txfHE.text = ""
         txfHS.text = ""
     }
+    func errolbl(){
+        self.lblTotal.text = "* * E R R O R * *"
+    }
     
     func validaHoras(entrada he:Int, salida hs:Int){
         if he > 2400{
             self.showAlert(WithTitle: "E R R O R", AndMessage: "EL DIA NO DURA MAS DE 24 HORAS")
-            print("haces trampa")
+            reinicio()
+            errolbl()
         } else if hs > 2400 {
             self.showAlert(WithTitle: "E R R O R", AndMessage: "EL DIA NO DURA MAS DE 24 HORAS")
-            print("haces trampa 2")
+            reinicio()
+            errolbl()
         } else {
-            print("todo ok")
         }
     }
     
@@ -78,9 +110,10 @@ class DecimoEjercicioViewController : UIViewController {
     func validaH2(entrada he:Int, salida hs:Int){
         if he >= hs {
             self.showAlert(WithTitle: "E R R O R", AndMessage: "ESCRIBISTE ALGO MAL")
-            print("Esto no deberia de ser")
+            reinicio()
+            errolbl()
         } else{
-            print("todo ok")
+            
         }
     }
     
@@ -88,27 +121,30 @@ class DecimoEjercicioViewController : UIViewController {
         let estadia = hs - he
         if estadia <= 100{
             self.lblTotal.text = "$ \(((estadia)/100)+(1000))"
-            print("Debes pagar $ \(((estadia)/100)+(1000))")
         }else if
             estadia % 100 == 0
         {
             let estadia2 = (((estadia - 100)/100)*600)
             self.lblTotal.text = "$ \((estadia2) + 1000)"
-            print("Debes pagar $ \((estadia2) + 1000)")
+            
         } else if
             estadia % 100 != 0 {
             let estadia3 = ((((estadia - 100)/100)*600) + 600)
             self.lblTotal.text = "$ \((estadia3) + 1000)"
-            print("Debes pagar $ \((estadia3) + 1000)")
+            
         }
     }
     
     
     
+    
     func todo(){
-        validaHoras(entrada: horEnt, salida: hotSal)
-        validaH2(entrada: horEnt, salida: hotSal)
-        cobro(entrada: horEnt, salida: hotSal)
+        saveValues()
+        if digitos(entrada: horEnt, salida: hotSal){
+            validaHoras(entrada: horEnt, salida: hotSal)
+            validaH2(entrada: horEnt, salida: hotSal)
+            cobro(entrada: horEnt, salida: hotSal)
+        }
     }
     
     //MARK: - ACTIONS
@@ -116,11 +152,12 @@ class DecimoEjercicioViewController : UIViewController {
     @IBAction func btnCheck(_ sender: Any) {
         
         if validateTXF(){
-            reinicio()
             todo()
+            reinicio()
         }
         
     }
+    
     //MARK: - NAVIGATION
     
 }
