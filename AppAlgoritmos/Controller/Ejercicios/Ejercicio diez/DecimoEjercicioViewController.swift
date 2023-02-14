@@ -119,17 +119,18 @@ class DecimoEjercicioViewController : UIViewController {
     
     func cobro(entrada he: Int, salida hs: Int){
         let estadia = hs - he
+        let estadia1 = ((estadia - 100)/100)*600
         if estadia <= 100{
-            self.lblTotal.text = "$ \(((estadia)/100)+(1000))"
+            self.lblTotal.text = "$ 1000"
         }else if
             estadia % 100 == 0
         {
-            let estadia2 = (((estadia - 100)/100)*600)
+            let estadia2 = estadia1
             self.lblTotal.text = "$ \((estadia2) + 1000)"
             
         } else if
             estadia % 100 != 0 {
-            let estadia3 = ((((estadia - 100)/100)*600) + 600)
+            let estadia3 = (estadia1 + 600)
             self.lblTotal.text = "$ \((estadia3) + 1000)"
             
         }

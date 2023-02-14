@@ -15,6 +15,8 @@
 		3440A45C298236460009B0FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3440A45A298236460009B0FA /* LaunchScreen.storyboard */; };
 		3440A467298236BB0009B0FA /* EjercicioUnoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3440A465298236BB0009B0FA /* EjercicioUnoViewController.swift */; };
 		3440A468298236BB0009B0FA /* EjercicioUnoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3440A466298236BB0009B0FA /* EjercicioUnoViewController.xib */; };
+		A258ABD9299B08F700980D9A /* DoceavoEjercicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A258ABD7299B08F700980D9A /* DoceavoEjercicioViewController.swift */; };
+		A258ABDA299B08F700980D9A /* DoceavoEjercicioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A258ABD8299B08F700980D9A /* DoceavoEjercicioViewController.xib */; };
 		A2773C87298837E4009F73EE /* EjercicioDosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2773C85298837E4009F73EE /* EjercicioDosViewController.swift */; };
 		A2773C88298837E4009F73EE /* EjercicioDosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2773C86298837E4009F73EE /* EjercicioDosViewController.xib */; };
 		A2773C912988B335009F73EE /* TercerEjercicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2773C8F2988B335009F73EE /* TercerEjercicioViewController.swift */; };
@@ -48,6 +50,8 @@
 		3440A45D298236460009B0FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3440A465298236BB0009B0FA /* EjercicioUnoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjercicioUnoViewController.swift; sourceTree = "<group>"; };
 		3440A466298236BB0009B0FA /* EjercicioUnoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EjercicioUnoViewController.xib; sourceTree = "<group>"; };
+		A258ABD7299B08F700980D9A /* DoceavoEjercicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoceavoEjercicioViewController.swift; sourceTree = "<group>"; };
+		A258ABD8299B08F700980D9A /* DoceavoEjercicioViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DoceavoEjercicioViewController.xib; sourceTree = "<group>"; };
 		A2773C85298837E4009F73EE /* EjercicioDosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjercicioDosViewController.swift; sourceTree = "<group>"; };
 		A2773C86298837E4009F73EE /* EjercicioDosViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EjercicioDosViewController.xib; sourceTree = "<group>"; };
 		A2773C8F2988B335009F73EE /* TercerEjercicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TercerEjercicioViewController.swift; sourceTree = "<group>"; };
@@ -135,8 +139,24 @@
 				A29D19E62991CAEB00B68D7B /* Ejercicio diez */,
 				A29D19E72991CAFB00B68D7B /* Ejercicio once */,
 				A29D19E82991CB1B00B68D7B /* Ejercicio doce */,
+				A258ABD6299B077D00980D9A /* Ejercicio trece */,
+				A258ABD4299B071B00980D9A /* Ejercicio catorce */,
 			);
 			path = Ejercicios;
+			sourceTree = "<group>";
+		};
+		A258ABD4299B071B00980D9A /* Ejercicio catorce */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Ejercicio catorce";
+			sourceTree = "<group>";
+		};
+		A258ABD6299B077D00980D9A /* Ejercicio trece */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Ejercicio trece";
 			sourceTree = "<group>";
 		};
 		A2773C892988A7E6009F73EE /* Ejercicio uno */ = {
@@ -232,6 +252,8 @@
 		A29D19E82991CB1B00B68D7B /* Ejercicio doce */ = {
 			isa = PBXGroup;
 			children = (
+				A258ABD7299B08F700980D9A /* DoceavoEjercicioViewController.swift */,
+				A258ABD8299B08F700980D9A /* DoceavoEjercicioViewController.xib */,
 			);
 			path = "Ejercicio doce";
 			sourceTree = "<group>";
@@ -303,6 +325,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A258ABDA299B08F700980D9A /* DoceavoEjercicioViewController.xib in Resources */,
 				A29D19EC2991CB4700B68D7B /* OctavoEjercicioViewController.xib in Resources */,
 				A2CDF042298AD7DF006F8461 /* CuartoEjercicioViewController.xib in Resources */,
 				3440A45C298236460009B0FA /* LaunchScreen.storyboard in Resources */,
@@ -337,6 +360,7 @@
 				3440A452298236430009B0FA /* SceneDelegate.swift in Sources */,
 				A29D19EF2991DAB300B68D7B /* NovenoEjercicioViewController.swift in Sources */,
 				A2773C87298837E4009F73EE /* EjercicioDosViewController.swift in Sources */,
+				A258ABD9299B08F700980D9A /* DoceavoEjercicioViewController.swift in Sources */,
 				A2CDF04D298B4FDB006F8461 /* QuintoEjeViewController.swift in Sources */,
 				A2946F0F29944F9700496DD9 /* DecimoEjercicioViewController.swift in Sources */,
 				A2CDF041298AD7DF006F8461 /* CuartoEjercicioViewController.swift in Sources */,
