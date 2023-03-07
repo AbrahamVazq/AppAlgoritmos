@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TreceavoEjercicioViewController" customModule="AppAlgoritmos" customModuleProvider="target">
+            <connections>
+                <outlet property="lblSalUnit" destination="pCs-M3-CFe" id="Y7j-iw-nlt"/>
+                <outlet property="lblTotal" destination="9DI-qO-7qd" id="gKm-Jz-be3"/>
+                <outlet property="lblTrabajador" destination="puF-XX-yYy" id="elG-M6-Hqg"/>
+                <outlet property="txfHoras" destination="v9p-Z8-Bxd" id="04K-vD-fEk"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nòmina de trabajadores" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oAw-gO-CuH">
+                    <rect key="frame" x="50" y="81" width="293" height="32"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Horas trabajadas" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="v9p-Z8-Bxd">
+                    <rect key="frame" x="123" y="169" width="147" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trabajador # (0)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="puF-XX-yYy">
+                    <rect key="frame" x="135" y="270" width="123" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="El Salario para # (0) es $0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pCs-M3-CFe">
+                    <rect key="frame" x="86" y="341" width="221" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8qn-JE-jt1">
+                    <rect key="frame" x="110" y="497" width="173" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="yGf-Y2-xXB"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Calcular nomina"/>
+                    <connections>
+                        <action selector="btnCalcula:" destination="-1" eventType="touchUpInside" id="W5p-CV-LIu"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9DI-qO-7qd">
+                    <rect key="frame" x="100" y="642" width="193" height="24"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="oAw-gO-CuH" secondAttribute="trailing" constant="50" id="1CA-kk-vce"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="puF-XX-yYy" secondAttribute="trailing" constant="135" id="8Dm-se-IA3"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="9DI-qO-7qd" secondAttribute="trailing" constant="100" id="Dsm-Cw-Shz"/>
+                <constraint firstItem="puF-XX-yYy" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="135" id="EeM-Pq-iiO"/>
+                <constraint firstItem="oAw-gO-CuH" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="22" id="Eh6-eX-x3g"/>
+                <constraint firstItem="9DI-qO-7qd" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="100" id="Fqc-95-ZFN"/>
+                <constraint firstItem="pCs-M3-CFe" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="86" id="Vlo-BV-QgU"/>
+                <constraint firstItem="v9p-Z8-Bxd" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="123" id="Was-e1-kWv"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="8qn-JE-jt1" secondAttribute="trailing" constant="110" id="Wxj-PA-SEQ"/>
+                <constraint firstItem="8qn-JE-jt1" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="110" id="Zxh-me-Avw"/>
+                <constraint firstItem="pCs-M3-CFe" firstAttribute="top" secondItem="puF-XX-yYy" secondAttribute="bottom" constant="50" id="epo-W0-fbu"/>
+                <constraint firstItem="puF-XX-yYy" firstAttribute="top" secondItem="v9p-Z8-Bxd" secondAttribute="bottom" constant="67" id="fa9-ds-U6D"/>
+                <constraint firstItem="oAw-gO-CuH" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="50" id="gzV-Ka-Qci"/>
+                <constraint firstItem="v9p-Z8-Bxd" firstAttribute="top" secondItem="oAw-gO-CuH" secondAttribute="bottom" constant="56" id="iz0-A1-DQL"/>
+                <constraint firstItem="8qn-JE-jt1" firstAttribute="top" secondItem="pCs-M3-CFe" secondAttribute="bottom" constant="135" id="jWA-jB-dXS"/>
+                <constraint firstItem="9DI-qO-7qd" firstAttribute="top" secondItem="8qn-JE-jt1" secondAttribute="bottom" constant="100" id="phq-Gb-RxS"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="pCs-M3-CFe" secondAttribute="trailing" constant="86" id="r1n-js-0tX"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="v9p-Z8-Bxd" secondAttribute="trailing" constant="123" id="wF7-uq-Z46"/>
+            </constraints>
+            <point key="canvasLocation" x="139.69465648854961" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

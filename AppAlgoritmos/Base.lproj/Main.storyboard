@@ -185,6 +185,53 @@
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Ejercicio 12"/>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x89-pD-D2U">
+                                        <rect key="frame" x="26" y="519" width="110" height="50"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="110" id="BKR-QC-cuf"/>
+                                            <constraint firstAttribute="height" constant="50" id="Zmg-Kq-ljO"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Ejercicio 13"/>
+                                        <connections>
+                                            <action selector="goToThirteen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ma2-Dz-tL3"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Km-SS-LM3">
+                                        <rect key="frame" x="257" y="519" width="110" height="50"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="110" id="31U-ta-ekf"/>
+                                            <constraint firstAttribute="height" constant="50" id="bkI-Ea-t1p"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Ejercicio 15"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aGo-7z-OYD">
+                                        <rect key="frame" x="141" y="519" width="110" height="50"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="BlL-yh-CLn"/>
+                                            <constraint firstAttribute="width" constant="110" id="c44-ae-pGC"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Ejercicio 14"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pB0-Jt-K89">
+                                        <rect key="frame" x="141" y="626" width="110" height="50"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="110" id="765-VI-eyf"/>
+                                            <constraint firstAttribute="height" constant="50" id="ZqQ-sz-rJY"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Ejercicio 16"/>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -195,10 +242,15 @@
                                     <constraint firstItem="87q-1l-Jkb" firstAttribute="top" secondItem="Fjn-2y-klQ" secondAttribute="bottom" constant="58" id="5Yh-re-8zJ"/>
                                     <constraint firstAttribute="trailing" secondItem="87q-1l-Jkb" secondAttribute="trailing" constant="26" id="5dw-Mv-SX3"/>
                                     <constraint firstItem="7fr-e1-Y8c" firstAttribute="top" secondItem="mLh-lz-Auu" secondAttribute="bottom" constant="58" id="73P-cC-wDi"/>
+                                    <constraint firstItem="pB0-Jt-K89" firstAttribute="top" secondItem="aGo-7z-OYD" secondAttribute="bottom" constant="57" id="7RG-hM-Cgo"/>
+                                    <constraint firstAttribute="trailing" secondItem="x89-pD-D2U" secondAttribute="trailing" constant="257" id="7Te-H6-Kg9"/>
                                     <constraint firstAttribute="trailing" secondItem="elS-zz-aqC" secondAttribute="trailing" constant="26" id="7aD-Td-P7K"/>
                                     <constraint firstItem="mLh-lz-Auu" firstAttribute="centerX" secondItem="ttQ-Op-yS9" secondAttribute="centerX" id="8NO-Ma-jgY"/>
                                     <constraint firstItem="IsY-Sv-pHm" firstAttribute="top" secondItem="L5e-Tf-g5R" secondAttribute="bottom" constant="58" id="9xp-lX-UfD"/>
+                                    <constraint firstItem="x89-pD-D2U" firstAttribute="top" secondItem="NkT-hj-pNa" secondAttribute="bottom" constant="55" id="Bhg-Bx-adh"/>
                                     <constraint firstItem="qSj-K9-uPj" firstAttribute="centerX" secondItem="ttQ-Op-yS9" secondAttribute="centerX" id="CNi-d5-dgD"/>
+                                    <constraint firstItem="3Km-SS-LM3" firstAttribute="leading" secondItem="aGo-7z-OYD" secondAttribute="trailing" constant="6" id="KiW-b2-oQU"/>
+                                    <constraint firstItem="3Km-SS-LM3" firstAttribute="leading" secondItem="aGo-7z-OYD" secondAttribute="trailing" constant="6" id="Kot-2J-Gfs"/>
                                     <constraint firstItem="7fr-e1-Y8c" firstAttribute="centerX" secondItem="ttQ-Op-yS9" secondAttribute="centerX" id="U9D-KA-HHb"/>
                                     <constraint firstItem="mLh-lz-Auu" firstAttribute="top" secondItem="Eux-ZC-AhA" secondAttribute="bottom" constant="58" id="YjS-te-Jyz"/>
                                     <constraint firstItem="l4b-gT-585" firstAttribute="top" secondItem="elS-zz-aqC" secondAttribute="bottom" constant="58" id="Zaf-ZZ-dMs"/>
@@ -208,10 +260,16 @@
                                     <constraint firstItem="elS-zz-aqC" firstAttribute="top" secondItem="ttQ-Op-yS9" secondAttribute="top" constant="90" id="geh-5f-Fh7"/>
                                     <constraint firstItem="NkT-hj-pNa" firstAttribute="top" secondItem="LYX-nK-F86" secondAttribute="bottom" constant="58" id="hXo-3k-fJX"/>
                                     <constraint firstItem="Fjn-2y-klQ" firstAttribute="top" secondItem="l4b-gT-585" secondAttribute="bottom" constant="58" id="i8s-a0-hnQ"/>
+                                    <constraint firstItem="3Km-SS-LM3" firstAttribute="top" secondItem="87q-1l-Jkb" secondAttribute="bottom" constant="55" id="jd5-ha-T4I"/>
                                     <constraint firstAttribute="trailing" secondItem="Fjn-2y-klQ" secondAttribute="trailing" constant="26" id="m85-KQ-1iU"/>
+                                    <constraint firstItem="x89-pD-D2U" firstAttribute="leading" secondItem="ttQ-Op-yS9" secondAttribute="leading" constant="26" id="mNR-pK-Jfe"/>
+                                    <constraint firstItem="aGo-7z-OYD" firstAttribute="leading" secondItem="x89-pD-D2U" secondAttribute="trailing" constant="5" id="oRs-hM-XvM"/>
                                     <constraint firstItem="Eux-ZC-AhA" firstAttribute="top" secondItem="qSj-K9-uPj" secondAttribute="bottom" constant="58" id="pEV-fJ-gIM"/>
                                     <constraint firstItem="IsY-Sv-pHm" firstAttribute="leading" secondItem="ttQ-Op-yS9" secondAttribute="leading" constant="26" id="rD4-wT-e9u"/>
+                                    <constraint firstItem="pB0-Jt-K89" firstAttribute="leading" secondItem="ttQ-Op-yS9" secondAttribute="leading" constant="141" id="t15-8i-418"/>
+                                    <constraint firstAttribute="trailing" secondItem="pB0-Jt-K89" secondAttribute="trailing" constant="142" id="vlI-PX-MTr"/>
                                     <constraint firstItem="L5e-Tf-g5R" firstAttribute="leading" secondItem="ttQ-Op-yS9" secondAttribute="leading" constant="26" id="xyJ-Ep-8Hc"/>
+                                    <constraint firstItem="aGo-7z-OYD" firstAttribute="top" secondItem="7fr-e1-Y8c" secondAttribute="bottom" constant="55" id="yun-aR-1PH"/>
                                 </constraints>
                             </view>
                         </subviews>

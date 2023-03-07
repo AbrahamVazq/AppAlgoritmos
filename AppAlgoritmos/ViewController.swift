@@ -89,6 +89,22 @@ class ViewController: UIViewController {
         self.present(ed, animated: true)
         
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @IBAction func goToThirteen(_ sender: Any) {
+        let ed = TreceavoEjercicioViewController(nibName: "TreceavoEjercicioViewController", bundle: .main)
+        self.present(ed, animated: true)
+        
+    }
+    
+    
     //MARK: - NAVIGATION
     
     

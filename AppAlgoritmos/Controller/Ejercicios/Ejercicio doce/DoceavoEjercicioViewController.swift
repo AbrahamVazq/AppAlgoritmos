@@ -16,7 +16,7 @@ class DoceavoEjercicioViewController : UIViewController {
     
     
     //MARK: - VARIABLES
-    var notas = 0
+    var notasList: [Int] = []
     
     
     //MARK: - LIFE · CYCLE
@@ -36,26 +36,7 @@ class DoceavoEjercicioViewController : UIViewController {
         txfNotas.text = ""
         
     }
-    func saveValues(){
-        self.notas = Int(txfNotas.text ?? "0") ?? 0
-    }
-    
-    /* @IBOutlet weak var inputEntered: UITextField!
-     var shoppingList: [String] = [] // our holder of strings
-
-     @IBAction func buttonAddToList(_ sender: UIButton) {
-
-         if let item = inputEntered.text, item.isEmpty == false { // need to make sure we have something here
-             shoppingList.append(item) // store it in our data holder
-         }
-         inputEntered.text = nil // clean the textfield input
-
-         for product in shoppingList {
-             print(product) // prints the items currently in the list
-         }
-     }
-     */
-    
+   
     
     func sumaArreglo(numeros notas:[Int]) -> Double{
         var suma:Int = 0
@@ -82,4 +63,21 @@ class DoceavoEjercicioViewController : UIViewController {
     //MARK: - NAVIGATION
     
 }
+
+
+/* @IBOutlet weak var inputEntered: UITextField!
+ var shoppingList: [String] = [] // our holder of strings
+
+ @IBAction func buttonAddToList(_ sender: UIButton) {
+
+     if let item = inputEntered.text, item.isEmpty == false { // need to make sure we have something here
+         shoppingList.append(item) // store it in our data holder
+     }
+     inputEntered.text = nil // clean the textfield input
+
+     for product in shoppingList {
+         print(product) // prints the items currently in the list
+     }
+ }
+ */
 
