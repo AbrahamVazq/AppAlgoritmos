@@ -56,11 +56,21 @@ class Ejercicio10ViewController: UIViewController {
     
     func cobroPorHora(HE: Int, HS: Int){
         let horaEstadia = HS - HE
- //  let horaFr = horaEstadia - HS
         if horaEstadia <= 100 {
             self.lblPago.text = "Monto a pagar \(horaEstadia/100 * tarifaPorHora)"
-        }else if horaEstadia >= 1 {
-            self.lblPago.text = "Monto a pagar \(horaEstadia * tarifaPorHora)"
+        }else if horaEstadia % 100 == 0 {
+            print("El residuo es cero")
+            let sinPrimHora = horaEstadia - 100
+            let horaFraccion = sinPrimHora / 100
+            let horasTotales = horaFraccion * 600
+            let cobroTotal = horasTotales + tarifaPorHora
+            self.lblPago.text = "Monto a pagar \(cobroTotal)"
+        }else if horaEstadia % 100 != 0 {
+            let sinprimeraHora = horaEstadia - 100
+            let horaFraccion = sinprimeraHora / 100
+            let horasParciales = horaFraccion * 600
+            let cobroTotal = (horasParciales + 600) + tarifaPorHora
+            self.lblPago.text = "Monto a pagar \(cobroTotal)"
         }
     }
     

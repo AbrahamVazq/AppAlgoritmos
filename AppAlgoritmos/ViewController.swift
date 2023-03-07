@@ -79,6 +79,33 @@ class ViewController: UIViewController {
         self.present(vttw, animated: true)
     }
     
+    @IBAction func goToThirteenth(_ sender: Any) {
+        let vttr = Ejercicio13ViewController(nibName: "Ejercicio13ViewController", bundle: .main)
+        self.present(vttr, animated: true)
+    }
+    
+    @IBAction func goToFourteenth(_ sender: Any) {
+        let vttf = Ejercicio14ViewController(nibName: "Ejercicio14ViewController", bundle: .main)
+        self.present(vttf, animated: true)
+    }
+    
+    @IBAction func goToFifteenth(_ sender: Any) {
+        let vttf = Ejercicio15ViewController(nibName: "Ejercicio15ViewController", bundle: .main)
+        self.present(vttf, animated: true)
+    }
+    
+    @IBAction func goToSicteenth(_ sender: Any) {
+        let vttf = Ejercicio16ViewController(nibName: "Ejercicio16ViewController", bundle: .main)
+        self.present(vttf, animated: true)
+    }
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     

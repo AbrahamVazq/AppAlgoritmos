@@ -183,8 +183,8 @@
                                     <action selector="goToTwelfth:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UVy-iG-iSF"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Vo-vn-S10">
-                                <rect key="frame" x="26" y="292" width="90" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Vo-vn-S10">
+                                <rect key="frame" x="28" y="292" width="90" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="ove-Su-oR3"/>
                                     <constraint firstAttribute="width" constant="90" id="sep-hD-r9W"/>
@@ -198,13 +198,79 @@
                                     <action selector="goToTenth:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PqZ-xc-ZfF"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OQg-7e-Kuv">
+                                <rect key="frame" x="28" y="359" width="90" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="2aC-At-R6n"/>
+                                    <constraint firstAttribute="height" constant="35" id="hFd-pj-v9g"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Ejercicio 13 ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToThirteenth:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vCH-8s-dd0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oM6-Lk-2yz">
+                                <rect key="frame" x="144" y="359" width="90" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="710-ND-xth"/>
+                                    <constraint firstAttribute="height" constant="35" id="FiZ-ZL-4AV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Ejercicio 14">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToFourteenth:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ok5-Bl-FFc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kF3-8v-aeK">
+                                <rect key="frame" x="260" y="359" width="100" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="1Wd-rm-L2s"/>
+                                    <constraint firstAttribute="width" constant="100" id="HOw-Zv-Nhv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Ejercicio 15 ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToFifteenth:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mr1-Ni-UG5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vvs-bi-YIW">
+                                <rect key="frame" x="28" y="426" width="95" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="95" id="F8b-yj-cki"/>
+                                    <constraint firstAttribute="height" constant="35" id="UVm-dN-svq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Ejercicio 16">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="goToSicteenth:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6q2-KC-iAy"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemCyanColor"/>
                         <constraints>
                             <constraint firstItem="vFA-Bo-Q8e" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="4e1-hT-iTP"/>
+                            <constraint firstItem="kF3-8v-aeK" firstAttribute="top" secondItem="Gor-2J-7hl" secondAttribute="bottom" constant="32" id="713-3P-MVd"/>
+                            <constraint firstItem="kF3-8v-aeK" firstAttribute="leading" secondItem="oM6-Lk-2yz" secondAttribute="trailing" constant="26" id="7Cb-sK-RkL"/>
+                            <constraint firstItem="oM6-Lk-2yz" firstAttribute="leading" secondItem="OQg-7e-Kuv" secondAttribute="trailing" constant="26" id="7F9-at-EiN"/>
                             <constraint firstItem="L5e-Tf-g5R" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="7iQ-6D-3Xn"/>
+                            <constraint firstItem="Vvs-bi-YIW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="28" id="E2v-NV-tYr"/>
                             <constraint firstItem="I70-fs-2Wk" firstAttribute="leading" secondItem="yx3-mQ-iTa" secondAttribute="trailing" constant="32" id="I5N-KR-6zu"/>
+                            <constraint firstItem="OQg-7e-Kuv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="28" id="J5g-qv-1rk"/>
+                            <constraint firstItem="OQg-7e-Kuv" firstAttribute="top" secondItem="3Vo-vn-S10" secondAttribute="bottom" constant="32" id="KBk-Ke-blc"/>
                             <constraint firstItem="tkv-IK-Fij" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="LR3-yd-HJF"/>
                             <constraint firstItem="AIO-l4-NGk" firstAttribute="leading" secondItem="tkv-IK-Fij" secondAttribute="trailing" constant="32" id="Ns8-9A-u8M"/>
                             <constraint firstItem="AIO-l4-NGk" firstAttribute="top" secondItem="ICn-i0-1eM" secondAttribute="bottom" constant="32" id="O24-rN-GWr"/>
@@ -220,10 +286,12 @@
                             <constraint firstItem="L5e-Tf-g5R" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="dAE-Ww-eCr"/>
                             <constraint firstItem="ICn-i0-1eM" firstAttribute="leading" secondItem="vFA-Bo-Q8e" secondAttribute="trailing" constant="32" id="jI3-8e-Kfw"/>
                             <constraint firstItem="f3f-8j-RFQ" firstAttribute="top" secondItem="euG-lQ-OQ1" secondAttribute="bottom" constant="32" id="k9i-pT-ywx"/>
+                            <constraint firstItem="Vvs-bi-YIW" firstAttribute="top" secondItem="OQg-7e-Kuv" secondAttribute="bottom" constant="32" id="mMg-Ki-NdB"/>
                             <constraint firstItem="ICn-i0-1eM" firstAttribute="top" secondItem="yx3-mQ-iTa" secondAttribute="bottom" constant="32" id="myk-tV-AAC"/>
                             <constraint firstItem="I70-fs-2Wk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="32" id="t6J-ZK-6wi"/>
                             <constraint firstItem="8oi-Eh-PZq" firstAttribute="leading" secondItem="3Vo-vn-S10" secondAttribute="trailing" constant="26" id="tFL-r9-YCc"/>
                             <constraint firstItem="Gor-2J-7hl" firstAttribute="top" secondItem="f3f-8j-RFQ" secondAttribute="bottom" constant="32" id="tXl-Yb-sfw"/>
+                            <constraint firstItem="oM6-Lk-2yz" firstAttribute="top" secondItem="8oi-Eh-PZq" secondAttribute="bottom" constant="32" id="uvr-Ji-FLT"/>
                             <constraint firstItem="Gor-2J-7hl" firstAttribute="leading" secondItem="8oi-Eh-PZq" secondAttribute="trailing" constant="26" id="xg9-nK-91b"/>
                             <constraint firstItem="3Vo-vn-S10" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="28" id="xwY-d6-exj"/>
                         </constraints>
