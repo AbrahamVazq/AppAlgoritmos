@@ -45,6 +45,8 @@
 		A2CDF054298B582C006F8461 /* SextoEjercicioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2CDF052298B582C006F8461 /* SextoEjercicioViewController.xib */; };
 		A2CDF057298B5E71006F8461 /* SeptimoEjecicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CDF055298B5E71006F8461 /* SeptimoEjecicioViewController.swift */; };
 		A2CDF058298B5E71006F8461 /* SeptimoEjecicioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2CDF056298B5E71006F8461 /* SeptimoEjecicioViewController.xib */; };
+		A2D197C429C0063600D38AA8 /* QuinceBisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D197C229C0063600D38AA8 /* QuinceBisViewController.swift */; };
+		A2D197C529C0063600D38AA8 /* QuinceBisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2D197C329C0063600D38AA8 /* QuinceBisViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +90,8 @@
 		A2CDF052298B582C006F8461 /* SextoEjercicioViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SextoEjercicioViewController.xib; sourceTree = "<group>"; };
 		A2CDF055298B5E71006F8461 /* SeptimoEjecicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeptimoEjecicioViewController.swift; sourceTree = "<group>"; };
 		A2CDF056298B5E71006F8461 /* SeptimoEjecicioViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeptimoEjecicioViewController.xib; sourceTree = "<group>"; };
+		A2D197C229C0063600D38AA8 /* QuinceBisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuinceBisViewController.swift; sourceTree = "<group>"; };
+		A2D197C329C0063600D38AA8 /* QuinceBisViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuinceBisViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +162,7 @@
 				A258ABD6299B077D00980D9A /* Ejercicio trece */,
 				A258ABD4299B071B00980D9A /* Ejercicio catorce */,
 				A267E9B829B6E81400325B7B /* Ejercicio quince */,
+				A2D197C129C0061A00D38AA8 /* Ejercicio quince Bis */,
 				A267E9B929B6E83900325B7B /* Ejercicio dieciseis */,
 			);
 			path = Ejercicios;
@@ -307,6 +312,15 @@
 			path = "Ejercicio siete";
 			sourceTree = "<group>";
 		};
+		A2D197C129C0061A00D38AA8 /* Ejercicio quince Bis */ = {
+			isa = PBXGroup;
+			children = (
+				A2D197C229C0063600D38AA8 /* QuinceBisViewController.swift */,
+				A2D197C329C0063600D38AA8 /* QuinceBisViewController.xib */,
+			);
+			path = "Ejercicio quince Bis";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -379,6 +393,7 @@
 				A2CDF054298B582C006F8461 /* SextoEjercicioViewController.xib in Resources */,
 				A267E9C429B6E8C000325B7B /* DieciseisEjeViewController.xib in Resources */,
 				3440A459298236460009B0FA /* Assets.xcassets in Resources */,
+				A2D197C529C0063600D38AA8 /* QuinceBisViewController.xib in Resources */,
 				A2946F162994777700496DD9 /* OnceavoEjercicioViewController.xib in Resources */,
 				A267E9BE29B6E89000325B7B /* QuinceExViewController.xib in Resources */,
 				A29D19F02991DAB300B68D7B /* NovenoEjercicioViewController.xib in Resources */,
@@ -412,6 +427,7 @@
 				A2CDF04D298B4FDB006F8461 /* QuintoEjeViewController.swift in Sources */,
 				A2946F0F29944F9700496DD9 /* DecimoEjercicioViewController.swift in Sources */,
 				A2CDF041298AD7DF006F8461 /* CuartoEjercicioViewController.swift in Sources */,
+				A2D197C429C0063600D38AA8 /* QuinceBisViewController.swift in Sources */,
 				A2CDF057298B5E71006F8461 /* SeptimoEjecicioViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

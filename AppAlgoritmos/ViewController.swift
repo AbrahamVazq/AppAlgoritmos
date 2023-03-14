@@ -105,6 +105,18 @@ class ViewController: UIViewController {
     }
     
     
+    
+    
+    @IBAction func goToQuince(_ sender: Any) {
+        let ed = QuinceExViewController(nibName: "QuinceExViewController", bundle: .main)
+        self.present(ed, animated: true)
+    }
+    
+    
+ 
+    
+    
+    
     //MARK: - NAVIGATION
     
     
